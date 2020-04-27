@@ -1,0 +1,258 @@
+/*--------------------------------------------------------------
+# Pagination / WooCommerce Pagination
+--------------------------------------------------------------*/
+
+.pagination,
+.woocommerce nav.woocommerce-pagination{
+	display:block;
+	margin-left:-5px;
+	margin-right:-5px;
+	padding:0;
+	border-radius:0;
+	text-align:center;
+	font-size:0;
+}
+
+.woocommerce nav.woocommerce-pagination ul{
+	margin:0;
+	border:none;
+}
+
+.pagination > *,
+.woocommerce nav.woocommerce-pagination ul li{
+	display:inline-block;
+	vertical-align:top;
+	float:none;
+	margin:0px 5px 10px 5px;
+	border:none;
+}
+
+.pagination > *,
+.woocommerce nav.woocommerce-pagination ul li a,
+.woocommerce nav.woocommerce-pagination ul li span{
+	padding:5px 10px 4px 10px;
+	background:#fff;
+	border:1px #cdcdcd solid;
+	border-radius:0;
+	text-transform:uppercase;
+	font-weight:700;
+	font-size:11px;
+	color:#010101;
+	line-height:20px;
+	letter-spacing:1px;
+	transition:all 0.3s ease-in-out;
+	-webkit-transition:all 0.3s ease-in-out;
+}
+
+.pagination > *.current,
+.woocommerce nav.woocommerce-pagination ul li span.current{
+	color:#fff !important;
+}
+
+/*--------------------------------------------------------------
+# Portfolio Navigation
+--------------------------------------------------------------*/
+
+.wraper-portfolio-navigation{
+
+	> .container{
+		padding-top:0;
+		padding-bottom:75px;
+	}
+
+	.portfolio-navigation{
+
+		/*--------------------------------------------------------------
+		# Style One
+		--------------------------------------------------------------*/
+
+		&.style-one{
+
+			.portfolio-navigation-previous,
+			.portfolio-navigation-next{
+				display:inline-block;
+				vertical-align:top;
+
+				> a{
+					display:block;
+					width:50px;
+					height:19px;
+					overflow:hidden;
+
+					> svg{
+						stroke:#010101;
+						transition:transform cubic-bezier(0.19,1,0.22,1) 0.4s;
+					}
+
+				}
+
+			}
+
+			.portfolio-navigation-previous{
+			    transform:rotate(180deg);
+			    -webkit-transform:rotate(180deg);
+
+			    > a > svg{
+			    	transform:rotate(-90deg) translateY(32px);
+				}
+
+			    &:hover > a > svg{
+					transform:rotate(-90deg) translateY(27px);
+				}
+
+			}
+
+			.portfolio-navigation-next{
+
+			    > a > svg{
+			    	transform:rotate(-90deg) translateY(-15px) translateX(9px);
+				}
+
+			    &:hover > a > svg{
+					transform:rotate(-90deg) translateY(-22px) translateX(9px);
+				}
+
+			}
+
+			.portfolio-navigation-migrate{
+				display:inline-block;
+				vertical-align:top;
+
+				> .btn{
+					display:block;
+					width:19px;
+					margin-top:-5px;
+
+					&:after{
+						content:" ";
+						display:block;
+						clear:both;
+					}
+
+					> .btn-dot{
+						width:7px;
+						height:7px;
+						float:left;
+						margin-right:3px;
+						margin-bottom:3px;
+						background-color:#010101;
+						border-radius:50%;
+
+						&:nth-child(even){
+							margin-right:0;
+						}
+
+					}
+
+				}
+
+			}
+
+		}
+
+		/*--------------------------------------------------------------
+		# Style Two
+		--------------------------------------------------------------*/
+
+		&.style-two{
+
+			.portfolio-navigation-previous,
+			.portfolio-navigation-next{
+				display:inline-block;
+				vertical-align:top;
+
+				> .btn{
+					display:block;
+					border:none;
+					text-transform:uppercase;
+					font-weight:600;
+					font-size:12px;
+					color:#010101;
+					line-height:26px;
+
+					> .btn-line{
+						display:inline-block;
+						vertical-align:middle;
+						width:27px;
+						height:1px;
+						margin-top:-3px;
+						background-color:#010101;
+						transition:all 0.4s ease-in-out;
+						-webkit-transition:all 0.4s ease-in-out;
+					}
+
+				}
+
+				&:hover > .btn{
+
+					> .btn-line{
+						width:20px;
+					}
+
+				}
+
+			}
+
+			.portfolio-navigation-previous{
+
+			    > .btn{
+
+					> .btn-line{
+						margin-right:11px;
+					}
+
+				}
+
+			}
+
+			.portfolio-navigation-next{
+
+			    > .btn{
+
+					> .btn-line{
+						margin-left:11px;
+					}
+
+				}
+
+			}
+
+			.portfolio-navigation-migrate{
+				display:inline-block;
+				vertical-align:top;
+
+				> .btn{
+					display:block;
+					width:19px;
+					margin-top:3px;
+
+					&:after{
+						content:" ";
+						display:block;
+						clear:both;
+					}
+
+					> .btn-dot{
+						width:7px;
+						height:7px;
+						float:left;
+						margin-right:3px;
+						margin-bottom:3px;
+						background-color:#010101;
+						border-radius:50%;
+
+						&:nth-child(even){
+							margin-right:0;
+						}
+
+					}
+
+				}
+
+			}
+
+		}
+
+	}
+
+}

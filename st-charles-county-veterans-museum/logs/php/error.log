@@ -1,0 +1,387 @@
+[17-Apr-2020 18:27:38 UTC] PHP Parse error:  syntax error, unexpected 'wp_enqueue_style' (T_STRING) in C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-content\themes\st-charles-veterans-theme\functions.php on line 5
+[17-Apr-2020 19:04:13 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-includes\post-template.php on line 317
+[17-Apr-2020 19:04:13 UTC] PHP Stack trace:
+[17-Apr-2020 19:04:13 UTC] PHP   1. {main}() C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\index.php:0
+[17-Apr-2020 19:04:13 UTC] PHP   2. require() C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\index.php:17
+[17-Apr-2020 19:04:13 UTC] PHP   3. require_once() C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-blog-header.php:19
+[17-Apr-2020 19:04:13 UTC] PHP   4. include() C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-includes\template-loader.php:106
+[17-Apr-2020 19:04:13 UTC] PHP   5. the_content() C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-content\themes\st-charles-veterans-theme\page.php:29
+[17-Apr-2020 19:04:13 UTC] PHP   6. get_the_content() C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-includes\post-template.php:244
+[17-Apr-2020 19:05:11 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-includes\post-template.php on line 317
+[17-Apr-2020 19:05:11 UTC] PHP Stack trace:
+[17-Apr-2020 19:05:11 UTC] PHP   1. {main}() C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\index.php:0
+[17-Apr-2020 19:05:11 UTC] PHP   2. require() C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\index.php:17
+[17-Apr-2020 19:05:11 UTC] PHP   3. require_once() C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-blog-header.php:19
+[17-Apr-2020 19:05:11 UTC] PHP   4. include() C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-includes\template-loader.php:106
+[17-Apr-2020 19:05:11 UTC] PHP   5. the_content() C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-content\themes\st-charles-veterans-theme\page.php:29
+[17-Apr-2020 19:05:11 UTC] PHP   6. get_the_content() C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-includes\post-template.php:244
+[17-Apr-2020 19:05:13 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-includes\post-template.php on line 317
+[17-Apr-2020 19:05:13 UTC] PHP Stack trace:
+[17-Apr-2020 19:05:13 UTC] PHP   1. {main}() C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\index.php:0
+[17-Apr-2020 19:05:13 UTC] PHP   2. require() C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\index.php:17
+[17-Apr-2020 19:05:13 UTC] PHP   3. require_once() C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-blog-header.php:19
+[17-Apr-2020 19:05:13 UTC] PHP   4. include() C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-includes\template-loader.php:106
+[17-Apr-2020 19:05:13 UTC] PHP   5. the_content() C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-content\themes\st-charles-veterans-theme\page.php:29
+[17-Apr-2020 19:05:13 UTC] PHP   6. get_the_content() C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-includes\post-template.php:244
+[18-Apr-2020 06:19:55 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function pageBanner() in C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-content\themes\st-charles-veterans-theme\page.php:5
+Stack trace:
+#0 C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-includes\template-loader.php(106): include()
+#1 C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-blog-header.php(19): require_once('C:\\Users\\lukeg\\...')
+#2 C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\index.php(17): require('C:\\Users\\lukeg\\...')
+#3 {main}
+  thrown in C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-content\themes\st-charles-veterans-theme\page.php on line 5
+[18-Apr-2020 19:11:21 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function pageBanner() in C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-content\themes\st-charles-veterans-theme\index.php:3
+Stack trace:
+#0 C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-includes\template-loader.php(106): include()
+#1 C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-blog-header.php(19): require_once('C:\\Users\\lukeg\\...')
+#2 C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\index.php(17): require('C:\\Users\\lukeg\\...')
+#3 {main}
+  thrown in C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-content\themes\st-charles-veterans-theme\index.php on line 3
+[18-Apr-2020 19:12:24 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_field() in C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-content\themes\st-charles-veterans-theme\functions.php:15
+Stack trace:
+#0 C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-content\themes\st-charles-veterans-theme\index.php(4): pageBanner(Array)
+#1 C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\lukeg\\...')
+#2 C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-blog-header.php(19): require_once('C:\\Users\\lukeg\\...')
+#3 C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\index.php(17): require('C:\\Users\\lukeg\\...')
+#4 {main}
+  thrown in C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-content\themes\st-charles-veterans-theme\functions.php on line 15
+[18-Apr-2020 23:14:02 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function pageBanner() in C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-content\themes\st-charles-veterans-theme\index.php:3
+Stack trace:
+#0 C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-includes\template-loader.php(106): include()
+#1 C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-blog-header.php(19): require_once('C:\\Users\\lukeg\\...')
+#2 C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\index.php(17): require('C:\\Users\\lukeg\\...')
+#3 {main}
+  thrown in C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-content\themes\st-charles-veterans-theme\index.php on line 3
+[18-Apr-2020 23:14:07 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function pageBanner() in C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-content\themes\st-charles-veterans-theme\index.php:3
+Stack trace:
+#0 C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-includes\template-loader.php(106): include()
+#1 C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-blog-header.php(19): require_once('C:\\Users\\lukeg\\...')
+#2 C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\index.php(17): require('C:\\Users\\lukeg\\...')
+#3 {main}
+  thrown in C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-content\themes\st-charles-veterans-theme\index.php on line 3
+[18-Apr-2020 23:17:14 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function pageBanner() in C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-content\themes\st-charles-veterans-theme\index.php:3
+Stack trace:
+#0 C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-includes\template-loader.php(106): include()
+#1 C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-blog-header.php(19): require_once('C:\\Users\\lukeg\\...')
+#2 C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\index.php(17): require('C:\\Users\\lukeg\\...')
+#3 {main}
+  thrown in C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-content\themes\st-charles-veterans-theme\index.php on line 3
+[18-Apr-2020 23:28:47 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_field() in C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-content\themes\st-charles-veterans-theme\functions.php:10
+Stack trace:
+#0 C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-content\themes\st-charles-veterans-theme\single.php(5): pageBanner()
+#1 C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\lukeg\\...')
+#2 C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-blog-header.php(19): require_once('C:\\Users\\lukeg\\...')
+#3 C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\index.php(17): require('C:\\Users\\lukeg\\...')
+#4 {main}
+  thrown in C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-content\themes\st-charles-veterans-theme\functions.php on line 10
+[18-Apr-2020 23:29:50 UTC] PHP Warning:  require(C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public/wp-content/themes/st-charles-veterans-theme/inc/search-route.php): failed to open stream: No such file or directory in C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-content\themes\st-charles-veterans-theme\functions.php on line 3
+[18-Apr-2020 23:29:50 UTC] PHP Stack trace:
+[18-Apr-2020 23:29:50 UTC] PHP   1. {main}() C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\index.php:0
+[18-Apr-2020 23:29:50 UTC] PHP   2. require() C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\index.php:17
+[18-Apr-2020 23:29:50 UTC] PHP   3. require_once() C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-blog-header.php:13
+[18-Apr-2020 23:29:50 UTC] PHP   4. require_once() C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-load.php:37
+[18-Apr-2020 23:29:50 UTC] PHP   5. require_once() C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-config.php:77
+[18-Apr-2020 23:29:50 UTC] PHP   6. include() C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-settings.php:514
+[18-Apr-2020 23:29:50 UTC] PHP Fatal error:  require(): Failed opening required 'C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public/wp-content/themes/st-charles-veterans-theme/inc/search-route.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-content\themes\st-charles-veterans-theme\functions.php on line 3
+[18-Apr-2020 23:29:50 UTC] PHP Stack trace:
+[18-Apr-2020 23:29:50 UTC] PHP   1. {main}() C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\index.php:0
+[18-Apr-2020 23:29:50 UTC] PHP   2. require() C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\index.php:17
+[18-Apr-2020 23:29:50 UTC] PHP   3. require_once() C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-blog-header.php:13
+[18-Apr-2020 23:29:50 UTC] PHP   4. require_once() C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-load.php:37
+[18-Apr-2020 23:29:50 UTC] PHP   5. require_once() C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-config.php:77
+[18-Apr-2020 23:29:50 UTC] PHP   6. include() C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-settings.php:514
+[18-Apr-2020 23:30:24 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_field() in C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-content\themes\st-charles-veterans-theme\functions.php:20
+Stack trace:
+#0 C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-content\themes\st-charles-veterans-theme\single.php(5): pageBanner()
+#1 C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\lukeg\\...')
+#2 C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-blog-header.php(19): require_once('C:\\Users\\lukeg\\...')
+#3 C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\index.php(17): require('C:\\Users\\lukeg\\...')
+#4 {main}
+  thrown in C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-content\themes\st-charles-veterans-theme\functions.php on line 20
+[18-Apr-2020 23:30:59 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_field() in C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-content\themes\st-charles-veterans-theme\functions.php:24
+Stack trace:
+#0 C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-content\themes\st-charles-veterans-theme\single.php(5): pageBanner()
+#1 C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\lukeg\\...')
+#2 C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-blog-header.php(19): require_once('C:\\Users\\lukeg\\...')
+#3 C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\index.php(17): require('C:\\Users\\lukeg\\...')
+#4 {main}
+  thrown in C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-content\themes\st-charles-veterans-theme\functions.php on line 24
+[19-Apr-2020 03:05:21 UTC] PHP Parse error:  syntax error, unexpected ')' in C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-content\themes\st-charles-veterans-theme\front-page.php on line 35
+[19-Apr-2020 03:10:47 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_field() in C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-content\themes\st-charles-veterans-theme\single-event.php:17
+Stack trace:
+#0 C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-includes\template-loader.php(106): include()
+#1 C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-blog-header.php(19): require_once('C:\\Users\\lukeg\\...')
+#2 C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\index.php(17): require('C:\\Users\\lukeg\\...')
+#3 {main}
+  thrown in C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-content\themes\st-charles-veterans-theme\single-event.php on line 17
+[19-Apr-2020 03:10:47 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_field() in C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-content\themes\st-charles-veterans-theme\single-event.php:17
+Stack trace:
+#0 C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-includes\template-loader.php(106): include()
+#1 C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-blog-header.php(19): require_once('C:\\Users\\lukeg\\...')
+#2 C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\index.php(17): require('C:\\Users\\lukeg\\...')
+#3 {main}
+  thrown in C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-content\themes\st-charles-veterans-theme\single-event.php on line 17
+[19-Apr-2020 03:21:26 UTC] PHP Parse error:  syntax error, unexpected '/', expecting end of file in C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-content\themes\st-charles-veterans-theme\index.php on line 3
+[19-Apr-2020 03:24:19 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_field() in C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-content\themes\st-charles-veterans-theme\functions.php:24
+Stack trace:
+#0 C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-content\themes\st-charles-veterans-theme\index.php(4): pageBanner(Array)
+#1 C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\lukeg\\...')
+#2 C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-blog-header.php(19): require_once('C:\\Users\\lukeg\\...')
+#3 C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\index.php(17): require('C:\\Users\\lukeg\\...')
+#4 {main}
+  thrown in C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-content\themes\st-charles-veterans-theme\functions.php on line 24
+[19-Apr-2020 03:24:27 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_field() in C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-content\themes\st-charles-veterans-theme\functions.php:24
+Stack trace:
+#0 C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-content\themes\st-charles-veterans-theme\index.php(4): pageBanner(Array)
+#1 C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\lukeg\\...')
+#2 C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-blog-header.php(19): require_once('C:\\Users\\lukeg\\...')
+#3 C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\index.php(17): require('C:\\Users\\lukeg\\...')
+#4 {main}
+  thrown in C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-content\themes\st-charles-veterans-theme\functions.php on line 24
+[19-Apr-2020 04:04:24 UTC] PHP Parse error:  syntax error, unexpected '<' in C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-content\themes\st-charles-veterans-theme\front-page.php on line 40
+[19-Apr-2020 05:35:31 UTC] PHP Fatal error:  Uncaught Error: Call to a member function add_rewrite_tag() on null in C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-includes\rewrite.php:173
+Stack trace:
+#0 C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-includes\class-wp-post-type.php(559): add_rewrite_tag('%event%', '([^/]+)', 'event=')
+#1 C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-includes\post.php(1432): WP_Post_Type->add_rewrite_rules()
+#2 C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-content\mu-plugins\museum-post-types.php(5): register_post_type('event', Array)
+#3 C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-settings.php(302): include_once('C:\\Users\\lukeg\\...')
+#4 C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-config.php(77): require_once('C:\\Users\\lukeg\\...')
+#5 C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-load.php(37): require_once('C:\\User in C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-includes\rewrite.php on line 173
+[19-Apr-2020 05:35:52 UTC] PHP Fatal error:  Uncaught Error: Call to a member function add_rewrite_tag() on null in C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-includes\rewrite.php:173
+Stack trace:
+#0 C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-includes\class-wp-post-type.php(559): add_rewrite_tag('%event%', '([^/]+)', 'event=')
+#1 C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-includes\post.php(1432): WP_Post_Type->add_rewrite_rules()
+#2 C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-content\mu-plugins\museum-post-types.php(5): register_post_type('event', Array)
+#3 C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-settings.php(302): include_once('C:\\Users\\lukeg\\...')
+#4 C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-config.php(77): require_once('C:\\Users\\lukeg\\...')
+#5 C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-load.php(37): require_once('C:\\User in C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-includes\rewrite.php on line 173
+[19-Apr-2020 05:35:55 UTC] PHP Fatal error:  Uncaught Error: Call to a member function add_rewrite_tag() on null in C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-includes\rewrite.php:173
+Stack trace:
+#0 C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-includes\class-wp-post-type.php(559): add_rewrite_tag('%event%', '([^/]+)', 'event=')
+#1 C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-includes\post.php(1432): WP_Post_Type->add_rewrite_rules()
+#2 C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-content\mu-plugins\museum-post-types.php(5): register_post_type('event', Array)
+#3 C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-settings.php(302): include_once('C:\\Users\\lukeg\\...')
+#4 C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-config.php(77): require_once('C:\\Users\\lukeg\\...')
+#5 C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-load.php(37): require_once('C:\\User in C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-includes\rewrite.php on line 173
+[19-Apr-2020 05:35:55 UTC] PHP Fatal error:  Uncaught Error: Call to a member function add_rewrite_tag() on null in C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-includes\rewrite.php:173
+Stack trace:
+#0 C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-includes\class-wp-post-type.php(559): add_rewrite_tag('%event%', '([^/]+)', 'event=')
+#1 C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-includes\post.php(1432): WP_Post_Type->add_rewrite_rules()
+#2 C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-content\mu-plugins\museum-post-types.php(5): register_post_type('event', Array)
+#3 C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-settings.php(302): include_once('C:\\Users\\lukeg\\...')
+#4 C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-config.php(77): require_once('C:\\Users\\lukeg\\...')
+#5 C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-load.php(37): require_once('C:\\User in C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-includes\rewrite.php on line 173
+[19-Apr-2020 05:35:57 UTC] PHP Fatal error:  Uncaught Error: Call to a member function add_rewrite_tag() on null in C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-includes\rewrite.php:173
+Stack trace:
+#0 C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-includes\class-wp-post-type.php(559): add_rewrite_tag('%event%', '([^/]+)', 'event=')
+#1 C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-includes\post.php(1432): WP_Post_Type->add_rewrite_rules()
+#2 C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-content\mu-plugins\museum-post-types.php(5): register_post_type('event', Array)
+#3 C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-settings.php(302): include_once('C:\\Users\\lukeg\\...')
+#4 C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-config.php(77): require_once('C:\\Users\\lukeg\\...')
+#5 C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-load.php(37): require_once('C:\\User in C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-includes\rewrite.php on line 173
+[19-Apr-2020 05:35:59 UTC] PHP Fatal error:  Uncaught Error: Call to a member function add_rewrite_tag() on null in C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-includes\rewrite.php:173
+Stack trace:
+#0 C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-includes\class-wp-post-type.php(559): add_rewrite_tag('%event%', '([^/]+)', 'event=')
+#1 C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-includes\post.php(1432): WP_Post_Type->add_rewrite_rules()
+#2 C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-content\mu-plugins\museum-post-types.php(5): register_post_type('event', Array)
+#3 C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-settings.php(302): include_once('C:\\Users\\lukeg\\...')
+#4 C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-config.php(77): require_once('C:\\Users\\lukeg\\...')
+#5 C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-load.php(37): require_once('C:\\User in C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-includes\rewrite.php on line 173
+[19-Apr-2020 06:04:06 UTC] PHP Parse error:  syntax error, unexpected '<' in C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-content\themes\st-charles-veterans-theme\archive-event.php on line 15
+[19-Apr-2020 06:04:34 UTC] PHP Fatal error:  Uncaught Error: Call to a member function format() on bool in C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-content\themes\st-charles-veterans-theme\archive-event.php:19
+Stack trace:
+#0 C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-includes\template-loader.php(106): include()
+#1 C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-blog-header.php(19): require_once('C:\\Users\\lukeg\\...')
+#2 C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\index.php(17): require('C:\\Users\\lukeg\\...')
+#3 {main}
+  thrown in C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-content\themes\st-charles-veterans-theme\archive-event.php on line 19
+[19-Apr-2020 06:05:04 UTC] PHP Fatal error:  Uncaught Error: Call to a member function format() on bool in C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-content\themes\st-charles-veterans-theme\archive-event.php:19
+Stack trace:
+#0 C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-includes\template-loader.php(106): include()
+#1 C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-blog-header.php(19): require_once('C:\\Users\\lukeg\\...')
+#2 C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\index.php(17): require('C:\\Users\\lukeg\\...')
+#3 {main}
+  thrown in C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-content\themes\st-charles-veterans-theme\archive-event.php on line 19
+[19-Apr-2020 06:05:25 UTC] PHP Fatal error:  Uncaught Error: Call to a member function format() on bool in C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-content\themes\st-charles-veterans-theme\archive-event.php:19
+Stack trace:
+#0 C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-includes\template-loader.php(106): include()
+#1 C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-blog-header.php(19): require_once('C:\\Users\\lukeg\\...')
+#2 C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\index.php(17): require('C:\\Users\\lukeg\\...')
+#3 {main}
+  thrown in C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-content\themes\st-charles-veterans-theme\archive-event.php on line 19
+[21-Apr-2020 21:03:00 UTC] PHP Fatal error:  Uncaught Error: Call to a member function format() on bool in C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-content\themes\st-charles-veterans-theme\archive-event.php:19
+Stack trace:
+#0 C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-includes\template-loader.php(106): include()
+#1 C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-blog-header.php(19): require_once('C:\\Users\\lukeg\\...')
+#2 C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\index.php(17): require('C:\\Users\\lukeg\\...')
+#3 {main}
+  thrown in C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-content\themes\st-charles-veterans-theme\archive-event.php on line 19
+[21-Apr-2020 21:05:46 UTC] PHP Fatal error:  Uncaught Error: Call to a member function format() on bool in C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-content\themes\st-charles-veterans-theme\archive-event.php:19
+Stack trace:
+#0 C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-includes\template-loader.php(106): include()
+#1 C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-blog-header.php(19): require_once('C:\\Users\\lukeg\\...')
+#2 C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\index.php(17): require('C:\\Users\\lukeg\\...')
+#3 {main}
+  thrown in C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-content\themes\st-charles-veterans-theme\archive-event.php on line 19
+[21-Apr-2020 21:05:50 UTC] PHP Fatal error:  Uncaught Error: Call to a member function format() on bool in C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-content\themes\st-charles-veterans-theme\archive-event.php:19
+Stack trace:
+#0 C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-includes\template-loader.php(106): include()
+#1 C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-blog-header.php(19): require_once('C:\\Users\\lukeg\\...')
+#2 C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\index.php(17): require('C:\\Users\\lukeg\\...')
+#3 {main}
+  thrown in C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-content\themes\st-charles-veterans-theme\archive-event.php on line 19
+[21-Apr-2020 21:33:50 UTC] PHP Fatal error:  Uncaught Error: Call to a member function format() on bool in C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-content\themes\st-charles-veterans-theme\archive-event.php:19
+Stack trace:
+#0 C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-includes\template-loader.php(106): include()
+#1 C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-blog-header.php(19): require_once('C:\\Users\\lukeg\\...')
+#2 C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\index.php(17): require('C:\\Users\\lukeg\\...')
+#3 {main}
+  thrown in C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-content\themes\st-charles-veterans-theme\archive-event.php on line 19
+[23-Apr-2020 15:15:00 UTC] PHP Fatal error:  Uncaught Error: Call to a member function format() on bool in C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-content\themes\st-charles-veterans-theme\archive-event.php:19
+Stack trace:
+#0 C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-includes\template-loader.php(106): include()
+#1 C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-blog-header.php(19): require_once('C:\\Users\\lukeg\\...')
+#2 C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\index.php(17): require('C:\\Users\\lukeg\\...')
+#3 {main}
+  thrown in C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-content\themes\st-charles-veterans-theme\archive-event.php on line 19
+[23-Apr-2020 15:15:38 UTC] PHP Fatal error:  Uncaught Error: Call to a member function format() on bool in C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-content\themes\st-charles-veterans-theme\archive-event.php:19
+Stack trace:
+#0 C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-includes\template-loader.php(106): include()
+#1 C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-blog-header.php(19): require_once('C:\\Users\\lukeg\\...')
+#2 C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\index.php(17): require('C:\\Users\\lukeg\\...')
+#3 {main}
+  thrown in C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-content\themes\st-charles-veterans-theme\archive-event.php on line 19
+[23-Apr-2020 15:27:31 UTC] PHP Fatal error:  Uncaught Error: Call to a member function format() on bool in C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-content\themes\st-charles-veterans-theme\archive-event.php:19
+Stack trace:
+#0 C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-includes\template-loader.php(106): include()
+#1 C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-blog-header.php(19): require_once('C:\\Users\\lukeg\\...')
+#2 C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\index.php(17): require('C:\\Users\\lukeg\\...')
+#3 {main}
+  thrown in C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-content\themes\st-charles-veterans-theme\archive-event.php on line 19
+[23-Apr-2020 15:27:33 UTC] PHP Fatal error:  Uncaught Error: Call to a member function format() on bool in C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-content\themes\st-charles-veterans-theme\archive-event.php:19
+Stack trace:
+#0 C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-includes\template-loader.php(106): include()
+#1 C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-blog-header.php(19): require_once('C:\\Users\\lukeg\\...')
+#2 C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\index.php(17): require('C:\\Users\\lukeg\\...')
+#3 {main}
+  thrown in C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-content\themes\st-charles-veterans-theme\archive-event.php on line 19
+[23-Apr-2020 15:27:47 UTC] PHP Fatal error:  Uncaught Error: Call to a member function format() on bool in C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-content\themes\st-charles-veterans-theme\archive-event.php:19
+Stack trace:
+#0 C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-includes\template-loader.php(106): include()
+#1 C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-blog-header.php(19): require_once('C:\\Users\\lukeg\\...')
+#2 C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\index.php(17): require('C:\\Users\\lukeg\\...')
+#3 {main}
+  thrown in C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-content\themes\st-charles-veterans-theme\archive-event.php on line 19
+[24-Apr-2020 18:59:08 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-includes\post-template.php on line 317
+[24-Apr-2020 18:59:08 UTC] PHP Stack trace:
+[24-Apr-2020 18:59:08 UTC] PHP   1. {main}() C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\index.php:0
+[24-Apr-2020 18:59:08 UTC] PHP   2. require() C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\index.php:17
+[24-Apr-2020 18:59:08 UTC] PHP   3. require_once() C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-blog-header.php:19
+[24-Apr-2020 18:59:08 UTC] PHP   4. include() C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-includes\template-loader.php:106
+[24-Apr-2020 18:59:08 UTC] PHP   5. the_content() C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-content\themes\st-charles-veterans-theme\front-page.php:23
+[24-Apr-2020 18:59:08 UTC] PHP   6. get_the_content() C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-includes\post-template.php:244
+[24-Apr-2020 19:01:06 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-includes\post-template.php on line 317
+[24-Apr-2020 19:01:06 UTC] PHP Stack trace:
+[24-Apr-2020 19:01:06 UTC] PHP   1. {main}() C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\index.php:0
+[24-Apr-2020 19:01:06 UTC] PHP   2. require() C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\index.php:17
+[24-Apr-2020 19:01:06 UTC] PHP   3. require_once() C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-blog-header.php:19
+[24-Apr-2020 19:01:06 UTC] PHP   4. include() C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-includes\template-loader.php:106
+[24-Apr-2020 19:01:06 UTC] PHP   5. the_content() C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-content\themes\st-charles-veterans-theme\front-page.php:23
+[24-Apr-2020 19:01:06 UTC] PHP   6. get_the_content() C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-includes\post-template.php:244
+[24-Apr-2020 19:45:08 UTC] PHP Fatal error:  Uncaught Exception: DateTime::__construct(): Failed to parse time string (21/03/2020) at position 0 (2): Unexpected character in C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-content\themes\st-charles-veterans-theme\page-past-events.php:38
+Stack trace:
+#0 C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-content\themes\st-charles-veterans-theme\page-past-events.php(38): DateTime->__construct('21/03/2020')
+#1 C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\lukeg\\...')
+#2 C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-blog-header.php(19): require_once('C:\\Users\\lukeg\\...')
+#3 C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\index.php(17): require('C:\\Users\\lukeg\\...')
+#4 {main}
+  thrown in C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-content\themes\st-charles-veterans-theme\page-past-events.php on line 38
+[24-Apr-2020 20:39:03 UTC] PHP Fatal error:  Uncaught Exception: DateTime::__construct(): Failed to parse time string (21/03/2020) at position 0 (2): Unexpected character in C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-content\themes\st-charles-veterans-theme\page-past-events.php:38
+Stack trace:
+#0 C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-content\themes\st-charles-veterans-theme\page-past-events.php(38): DateTime->__construct('21/03/2020')
+#1 C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\lukeg\\...')
+#2 C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-blog-header.php(19): require_once('C:\\Users\\lukeg\\...')
+#3 C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\index.php(17): require('C:\\Users\\lukeg\\...')
+#4 {main}
+  thrown in C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-content\themes\st-charles-veterans-theme\page-past-events.php on line 38
+[24-Apr-2020 21:37:58 UTC] PHP Fatal error:  Uncaught Exception: DateTime::__construct(): Failed to parse time string (21/03/2020) at position 0 (2): Unexpected character in C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-content\themes\st-charles-veterans-theme\page-past-events.php:38
+Stack trace:
+#0 C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-content\themes\st-charles-veterans-theme\page-past-events.php(38): DateTime->__construct('21/03/2020')
+#1 C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\lukeg\\...')
+#2 C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-blog-header.php(19): require_once('C:\\Users\\lukeg\\...')
+#3 C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\index.php(17): require('C:\\Users\\lukeg\\...')
+#4 {main}
+  thrown in C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-content\themes\st-charles-veterans-theme\page-past-events.php on line 38
+[24-Apr-2020 22:28:54 UTC] PHP Fatal error:  Uncaught Exception: DateTime::__construct(): Failed to parse time string (21/03/2020) at position 0 (2): Unexpected character in C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-content\themes\st-charles-veterans-theme\page-past-events.php:38
+Stack trace:
+#0 C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-content\themes\st-charles-veterans-theme\page-past-events.php(38): DateTime->__construct('21/03/2020')
+#1 C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\lukeg\\...')
+#2 C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-blog-header.php(19): require_once('C:\\Users\\lukeg\\...')
+#3 C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\index.php(17): require('C:\\Users\\lukeg\\...')
+#4 {main}
+  thrown in C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-content\themes\st-charles-veterans-theme\page-past-events.php on line 38
+[27-Apr-2020 18:48:30 UTC] PHP Fatal error:  Uncaught Exception: DateTime::__construct(): Failed to parse time string (21/03/2020) at position 0 (2): Unexpected character in C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-content\themes\st-charles-veterans-theme\page-past-events.php:38
+Stack trace:
+#0 C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-content\themes\st-charles-veterans-theme\page-past-events.php(38): DateTime->__construct('21/03/2020')
+#1 C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\lukeg\\...')
+#2 C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-blog-header.php(19): require_once('C:\\Users\\lukeg\\...')
+#3 C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\index.php(17): require('C:\\Users\\lukeg\\...')
+#4 {main}
+  thrown in C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-content\themes\st-charles-veterans-theme\page-past-events.php on line 38
+[27-Apr-2020 20:44:52 UTC] PHP Fatal error:  Uncaught Exception: DateTime::__construct(): Failed to parse time string (21/03/2020) at position 0 (2): Unexpected character in C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-content\themes\st-charles-veterans-theme\page-past-events.php:38
+Stack trace:
+#0 C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-content\themes\st-charles-veterans-theme\page-past-events.php(38): DateTime->__construct('21/03/2020')
+#1 C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\lukeg\\...')
+#2 C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-blog-header.php(19): require_once('C:\\Users\\lukeg\\...')
+#3 C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\index.php(17): require('C:\\Users\\lukeg\\...')
+#4 {main}
+  thrown in C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-content\themes\st-charles-veterans-theme\page-past-events.php on line 38
+[27-Apr-2020 20:52:21 UTC] PHP Fatal error:  Uncaught Exception: DateTime::__construct(): Failed to parse time string (21/03/2020) at position 0 (2): Unexpected character in C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-content\themes\st-charles-veterans-theme\page-past-events.php:38
+Stack trace:
+#0 C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-content\themes\st-charles-veterans-theme\page-past-events.php(38): DateTime->__construct('21/03/2020')
+#1 C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\lukeg\\...')
+#2 C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-blog-header.php(19): require_once('C:\\Users\\lukeg\\...')
+#3 C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\index.php(17): require('C:\\Users\\lukeg\\...')
+#4 {main}
+  thrown in C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-content\themes\st-charles-veterans-theme\page-past-events.php on line 38
+[27-Apr-2020 21:14:23 UTC] PHP Fatal error:  Uncaught Exception: DateTime::__construct(): Failed to parse time string (21/03/2020) at position 0 (2): Unexpected character in C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-content\themes\st-charles-veterans-theme\page-past-events.php:38
+Stack trace:
+#0 C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-content\themes\st-charles-veterans-theme\page-past-events.php(38): DateTime->__construct('21/03/2020')
+#1 C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\lukeg\\...')
+#2 C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-blog-header.php(19): require_once('C:\\Users\\lukeg\\...')
+#3 C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\index.php(17): require('C:\\Users\\lukeg\\...')
+#4 {main}
+  thrown in C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-content\themes\st-charles-veterans-theme\page-past-events.php on line 38
+[27-Apr-2020 21:20:27 UTC] PHP Fatal error:  Uncaught Exception: DateTime::__construct(): Failed to parse time string (21/03/2020) at position 0 (2): Unexpected character in C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-content\themes\st-charles-veterans-theme\front-page.php:44
+Stack trace:
+#0 C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-content\themes\st-charles-veterans-theme\front-page.php(44): DateTime->__construct('21/03/2020')
+#1 C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\lukeg\\...')
+#2 C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-blog-header.php(19): require_once('C:\\Users\\lukeg\\...')
+#3 C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\index.php(17): require('C:\\Users\\lukeg\\...')
+#4 {main}
+  thrown in C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-content\themes\st-charles-veterans-theme\front-page.php on line 44
+[27-Apr-2020 21:21:16 UTC] PHP Fatal error:  Uncaught Exception: DateTime::__construct(): Failed to parse time string (21/03/2020) at position 0 (2): Unexpected character in C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-content\themes\st-charles-veterans-theme\front-page.php:44
+Stack trace:
+#0 C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-content\themes\st-charles-veterans-theme\front-page.php(44): DateTime->__construct('21/03/2020')
+#1 C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\lukeg\\...')
+#2 C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-blog-header.php(19): require_once('C:\\Users\\lukeg\\...')
+#3 C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\index.php(17): require('C:\\Users\\lukeg\\...')
+#4 {main}
+  thrown in C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-content\themes\st-charles-veterans-theme\front-page.php on line 44
+[27-Apr-2020 21:23:46 UTC] PHP Fatal error:  Uncaught Exception: DateTime::__construct(): Failed to parse time string (21/03/2020) at position 0 (2): Unexpected character in C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-content\themes\st-charles-veterans-theme\page-past-events.php:38
+Stack trace:
+#0 C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-content\themes\st-charles-veterans-theme\page-past-events.php(38): DateTime->__construct('21/03/2020')
+#1 C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\lukeg\\...')
+#2 C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-blog-header.php(19): require_once('C:\\Users\\lukeg\\...')
+#3 C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\index.php(17): require('C:\\Users\\lukeg\\...')
+#4 {main}
+  thrown in C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-content\themes\st-charles-veterans-theme\page-past-events.php on line 38
+[27-Apr-2020 21:44:16 UTC] PHP Parse error:  syntax error, unexpected '}', expecting end of file in C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-content\themes\st-charles-veterans-theme\front-page.php on line 96
+[27-Apr-2020 21:44:51 UTC] PHP Fatal error:  Uncaught Error: Call to a member function format() on bool in C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-content\themes\st-charles-veterans-theme\front-page.php:82
+Stack trace:
+#0 C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-includes\template-loader.php(106): include()
+#1 C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-blog-header.php(19): require_once('C:\\Users\\lukeg\\...')
+#2 C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\index.php(17): require('C:\\Users\\lukeg\\...')
+#3 {main}
+  thrown in C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-content\themes\st-charles-veterans-theme\front-page.php on line 82
+[27-Apr-2020 21:58:25 UTC] PHP Parse error:  syntax error, unexpected end of file in C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-content\themes\st-charles-veterans-theme\front-page.php on line 200

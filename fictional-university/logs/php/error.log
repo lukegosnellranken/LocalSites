@@ -1,0 +1,42 @@
+[15-Feb-2019 16:46:46 UTC] PHP Warning:  Error while sending QUERY packet. PID=644 in /app/public/wp-includes/wp-db.php on line 1924
+[15-Feb-2019 17:10:15 UTC] PHP Warning:  Use of undefined constant myname - assumed 'myname' (this will throw an Error in a future version of PHP) in /app/public/experiment.php on line 6
+[15-Feb-2019 17:10:46 UTC] PHP Warning:  Use of undefined constant myname - assumed 'myname' (this will throw an Error in a future version of PHP) in /app/public/experiment.php on line 6
+[15-Feb-2019 17:10:47 UTC] PHP Warning:  Use of undefined constant myname - assumed 'myname' (this will throw an Error in a future version of PHP) in /app/public/experiment.php on line 6
+[22-Mar-2019 13:30:43 UTC] PHP Parse error:  syntax error, unexpected 'post' (T_STRING) in /app/public/wp-content/themes/fictional-university-theme/index.php on line 3
+[22-Mar-2019 13:32:49 UTC] PHP Parse error:  syntax error, unexpected 'post' (T_STRING) in /app/public/wp-content/themes/fictional-university-theme/index.php on line 3
+[22-Mar-2019 13:32:50 UTC] PHP Parse error:  syntax error, unexpected 'post' (T_STRING) in /app/public/wp-content/themes/fictional-university-theme/index.php on line 3
+[22-Mar-2019 13:32:51 UTC] PHP Parse error:  syntax error, unexpected 'post' (T_STRING) in /app/public/wp-content/themes/fictional-university-theme/index.php on line 3
+[22-Mar-2019 13:33:10 UTC] PHP Parse error:  syntax error, unexpected '}' in /app/public/wp-content/themes/fictional-university-theme/index.php on line 5
+[22-Mar-2019 13:33:12 UTC] PHP Parse error:  syntax error, unexpected '}' in /app/public/wp-content/themes/fictional-university-theme/index.php on line 5
+[22-Mar-2019 13:34:12 UTC] PHP Parse error:  syntax error, unexpected '}' in /app/public/wp-content/themes/fictional-university-theme/index.php on line 5
+[22-Mar-2019 13:34:13 UTC] PHP Parse error:  syntax error, unexpected '}' in /app/public/wp-content/themes/fictional-university-theme/index.php on line 5
+[22-Mar-2019 13:38:56 UTC] PHP Warning:  Use of undefined constant the_permalink - assumed 'the_permalink' (this will throw an Error in a future version of PHP) in /app/public/wp-content/themes/fictional-university-theme/index.php on line 4
+[22-Mar-2019 13:38:56 UTC] PHP Warning:  Use of undefined constant the_permalink - assumed 'the_permalink' (this will throw an Error in a future version of PHP) in /app/public/wp-content/themes/fictional-university-theme/index.php on line 4
+[22-Mar-2019 13:38:56 UTC] PHP Warning:  Use of undefined constant the_permalink - assumed 'the_permalink' (this will throw an Error in a future version of PHP) in /app/public/wp-content/themes/fictional-university-theme/index.php on line 4
+[22-Mar-2019 14:09:59 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function add_action(), 0 passed in /app/public/wp-content/themes/fictional-university-theme/functions.php on line 2 and at least 2 expected in /app/public/wp-includes/plugin.php:398
+Stack trace:
+#0 /app/public/wp-content/themes/fictional-university-theme/functions.php(2): add_action()
+#1 /app/public/wp-settings.php(443): include('/app/public/wp-...')
+#2 /app/public/wp-config.php(76): require_once('/app/public/wp-...')
+#3 /app/public/wp-load.php(37): require_once('/app/public/wp-...')
+#4 /app/public/wp-admin/admin-ajax.php(22): require_once('/app/public/wp-...')
+#5 {main}
+  thrown in /app/public/wp-includes/plugin.php on line 398
+[22-Mar-2019 15:08:54 UTC] PHP Parse error:  syntax error, unexpected 'wp_enqueue_style' (T_STRING) in /app/public/wp-content/themes/fictional-university-theme/functions.php on line 5
+[22-Mar-2019 15:08:55 UTC] PHP Parse error:  syntax error, unexpected 'wp_enqueue_style' (T_STRING) in /app/public/wp-content/themes/fictional-university-theme/functions.php on line 5
+[22-Mar-2019 15:10:37 UTC] PHP Parse error:  syntax error, unexpected 'wp_enqueue_style' (T_STRING) in /app/public/wp-content/themes/fictional-university-theme/functions.php on line 5
+[22-Mar-2019 15:19:29 UTC] PHP Parse error:  syntax error, unexpected ')' in /app/public/wp-content/themes/fictional-university-theme/index.php on line 5
+[29-Mar-2019 01:57:26 UTC] PHP Parse error:  syntax error, unexpected end of file in /app/public/wp-content/themes/fictional-university-theme/page.php on line 37
+[29-Mar-2019 01:57:28 UTC] PHP Parse error:  syntax error, unexpected end of file in /app/public/wp-content/themes/fictional-university-theme/page.php on line 37
+[29-Mar-2019 01:57:46 UTC] PHP Parse error:  syntax error, unexpected end of file in /app/public/wp-content/themes/fictional-university-theme/page.php on line 38
+[29-Mar-2019 01:57:47 UTC] PHP Parse error:  syntax error, unexpected end of file in /app/public/wp-content/themes/fictional-university-theme/page.php on line 38
+[29-Mar-2019 01:58:39 UTC] PHP Parse error:  syntax error, unexpected end of file in /app/public/wp-content/themes/fictional-university-theme/page.php on line 38
+[29-Mar-2019 01:58:40 UTC] PHP Parse error:  syntax error, unexpected end of file in /app/public/wp-content/themes/fictional-university-theme/page.php on line 38
+[29-Mar-2019 01:59:15 UTC] PHP Parse error:  syntax error, unexpected '}' in /app/public/wp-content/themes/fictional-university-theme/page.php on line 36
+[29-Mar-2019 02:08:25 UTC] PHP Parse error:  syntax error, unexpected end of file in /app/public/wp-content/themes/fictional-university-theme/functions.php on line 17
+[29-Mar-2019 02:34:06 UTC] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /app/public/wp-content/themes/fictional-university-theme/page.php on line 19
+[29-Mar-2019 02:55:16 UTC] PHP Parse error:  syntax error, unexpected '}' in /app/public/wp-content/themes/fictional-university-theme/page.php on line 34
+[29-Mar-2019 02:55:36 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /app/public/wp-content/themes/fictional-university-theme/page.php on line 40
+[03-Apr-2019 22:03:41 UTC] PHP Warning:  Use of undefined constant php - assumed 'php' (this will throw an Error in a future version of PHP) in /app/public/wp-content/themes/fictional-university-theme/index.php on line 1
+[03-Apr-2019 22:07:34 UTC] PHP Parse error:  syntax error, unexpected end of file in /app/public/wp-content/themes/fictional-university-theme/index.php on line 28
+[03-Apr-2019 23:33:04 UTC] PHP Warning:  Error while sending QUERY packet. PID=7500 in /app/public/wp-includes/wp-db.php on line 1924
