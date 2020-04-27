@@ -385,3 +385,6 @@ Stack trace:
 #3 {main}
   thrown in C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-content\themes\st-charles-veterans-theme\front-page.php on line 82
 [27-Apr-2020 21:58:25 UTC] PHP Parse error:  syntax error, unexpected end of file in C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-content\themes\st-charles-veterans-theme\front-page.php on line 200
+[27-Apr-2020 23:02:16 UTC] PHP Parse error:  syntax error, unexpected '.01' (T_DNUMBER) in C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-content\themes\st-charles-veterans-theme\front-page.php on line 22
+[27-Apr-2020 23:03:02 UTC] PHP Parse error:  syntax error, unexpected '.01' (T_DNUMBER) in C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-content\themes\st-charles-veterans-theme\front-page.php on line 22
+[27-Apr-2020 23:03:34 UTC] PHP Parse error:  syntax error, unexpected '.01' (T_DNUMBER), expecting ')' in C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-content\themes\st-charles-veterans-theme\front-page.php on line 22
