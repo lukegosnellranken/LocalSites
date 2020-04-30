@@ -1,17 +1,19 @@
 
 <?php get_header(); ?>
 
-<div class="page-banner">
-  <div class="page-banner__bg-image" style="background-image: url(<?php echo get_theme_file_uri('images/camera/pano-8.jpg') ?>);"></div>
+  <div class="page-banner">
+    <div class="page-banner__bg-image" style="background-image: url(<?php echo get_theme_file_uri('images/camera/pano-8.jpg') ?>);">
+    </div>
     <div class="page-banner__content container t-center c-white">
-      
       <h2 class="headline headline--medium" id="home-banner-title">Every veteran has a story.</h2>
-      
-      
     </div>
   </div>
 
-
+  <div class="under-banner">
+  <br class="ub-break">
+    <p class="under-banner-text">Open Thursday and Friday 10am - 6pm | Saturday 10am - 4pm</p>
+    
+  </div>
 
   <div class="full-width-split group">
     <div class="full-width-split__one">
@@ -56,9 +58,7 @@
               </div>
             </div>
             <?php }
-        ?>
-
-
+            ?>
 
         <p class="t-center no-margin"><a href="<?php echo get_post_type_archive_link('event'); ?>" class="btn btn--blue">All Current Events</a></p>
 
@@ -111,7 +111,7 @@
         <p class="front-page-text">Ralph Barrale wanted to see a Veterans Museum that would honor all of those Veterans who served our country, and especially those from St. Charles County. This was but another example of Ralph Barrale’s dedication to our servicemen and women and his desire to keep their memories in the forefront of the generations of today so that our Veterans will not be forgotten.</p>
         <p class="front-page-text">The museum opened in the spring of 2019. There you will find “Ralph’s Story” among others like his, who served our country, because Ralph felt</p>
         <!-- <blockquote class="front-page-text">“NO ONE IS EVER GONE, AS LONG AS SOMEONE STILL HAS MEMORIES OF THEM”</blockquote> -->
-        <p class="front-page-text">"No one is ever gone, as long as somebody still has memories of them."</p>
+        <p class="ralph-quote">"No one is ever gone, as long as somebody still has memories of them."</p>
       </div>
 
     </div>

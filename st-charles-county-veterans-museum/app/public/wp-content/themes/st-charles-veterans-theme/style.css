@@ -11,6 +11,18 @@ Version: 1.0
   margin-bottom:5%;
 }
 
+.under-banner{
+  position: relative;
+  background-color: rgb(37, 66, 47);
+  height: 3em;
+}
+
+.under-banner-text{
+  color: white;
+  text-align: center;
+  line-height: 0.8rem;
+}
+
 #home-transparent-line {
   display: block;
   margin-left: auto;
@@ -38,6 +50,14 @@ Version: 1.0
   min-width: 20em;
 }
 
+.ralph-quote{
+  margin: 2em 0;
+  margin-left: 18em;
+  margin-right: 16em;
+  font-size: xx-large;
+  min-width: 20em;
+}
+
 .site-footer__nonlink{
   color: #999;
 }
@@ -47,18 +67,80 @@ Version: 1.0
   color: gray;
 }
 
+.hero-slider{
+  margin-top: 3%;
+}
 
 @media (max-width: 960px) {
   #ralph-image{
     display: block;
   margin-left: auto;
   margin-right: auto;
+  width: 45%;
   }
 
   .front-page-text{
     display: block;
     margin-left: 2em;
     margin-right: 2em;
+  }
+}
+
+/* Sponsor Packages CSS */
+
+#packages-title{
+  margin-top: 2em;
+  font-weight: bold;
+  font-size: 200%;
+  padding-bottom: 2em;
+  color: rgb(29, 1, 187);
+  text-align: left;
+}
+
+.sponsor-title{
+  font-size: xx-large;
+  color: rgb(45, 88, 32);
+  margin-top: 2em;
+  font-weight: bold;
+}
+
+.sponsor-image{
+  margin-left: 0%;
+  margin-top: 25%;
+  width: 24em;
+  height: auto;
+}
+
+@media (max-width: 770px) {
+  #packages-title{
+    font-weight: bold;
+    font-size: 100%;
+    padding-bottom: 1.4em;
+    text-align: center;
+  }
+}
+
+/* Volunteers CSS */
+
+.volunteer-title{
+  font-size: 170%;
+  color: rgb(45, 88, 32);
+  margin-top: 2em;
+  font-weight: bold;
+}
+
+.volunteer-image{
+  margin-left: 0%;
+  margin-top: 10%;
+  border: solid;
+}
+
+@media (max-width: 960px) {
+  .volunteer-image{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 45%;
   }
 }
 

@@ -388,3 +388,21 @@ Stack trace:
 [27-Apr-2020 23:02:16 UTC] PHP Parse error:  syntax error, unexpected '.01' (T_DNUMBER) in C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-content\themes\st-charles-veterans-theme\front-page.php on line 22
 [27-Apr-2020 23:03:02 UTC] PHP Parse error:  syntax error, unexpected '.01' (T_DNUMBER) in C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-content\themes\st-charles-veterans-theme\front-page.php on line 22
 [27-Apr-2020 23:03:34 UTC] PHP Parse error:  syntax error, unexpected '.01' (T_DNUMBER), expecting ')' in C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-content\themes\st-charles-veterans-theme\front-page.php on line 22
+[28-Apr-2020 19:55:05 UTC] PHP Fatal error:  Uncaught Exception: DateTime::__construct(): Failed to parse time string (21/03/2020) at position 0 (2): Unexpected character in C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-content\themes\st-charles-veterans-theme\page-past-events.php:38
+Stack trace:
+#0 C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-content\themes\st-charles-veterans-theme\page-past-events.php(38): DateTime->__construct('21/03/2020')
+#1 C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\lukeg\\...')
+#2 C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-blog-header.php(19): require_once('C:\\Users\\lukeg\\...')
+#3 C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\index.php(17): require('C:\\Users\\lukeg\\...')
+#4 {main}
+  thrown in C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-content\themes\st-charles-veterans-theme\page-past-events.php on line 38
+[28-Apr-2020 19:58:44 UTC] PHP Fatal error:  Uncaught Exception: DateTime::__construct(): Failed to parse time string (21/03/2020) at position 0 (2): Unexpected character in C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-content\themes\st-charles-veterans-theme\page-past-events.php:38
+Stack trace:
+#0 C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-content\themes\st-charles-veterans-theme\page-past-events.php(38): DateTime->__construct('21/03/2020')
+#1 C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\lukeg\\...')
+#2 C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-blog-header.php(19): require_once('C:\\Users\\lukeg\\...')
+#3 C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\index.php(17): require('C:\\Users\\lukeg\\...')
+#4 {main}
+  thrown in C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-content\themes\st-charles-veterans-theme\page-past-events.php on line 38
+[28-Apr-2020 20:03:10 UTC] PHP Parse error:  syntax error, unexpected '<' in C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-content\themes\st-charles-veterans-theme\page-past-events.php on line 32
+[29-Apr-2020 04:18:33 UTC] PHP Parse error:  syntax error, unexpected end of file in C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-content\themes\st-charles-veterans-theme\page-volunteers.php on line 45

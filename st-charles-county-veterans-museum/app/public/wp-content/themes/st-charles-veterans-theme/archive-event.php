@@ -1,8 +1,8 @@
 <?php
     get_header(); 
     pageBanner(array(
-        'title' => 'All Events',
-        'subtitle' => 'See what is going on in our world.'
+        'title' => 'Current Events',
+        'subtitle' => 'What is going on at the museum?'
     ));
 ?>
     

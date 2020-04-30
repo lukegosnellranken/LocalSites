@@ -14,8 +14,8 @@
             <div class="site-header__menu group">
             <nav class="main-navigation">
                 <ul>
-                <li <?php if (is_page('news')) echo 'class="current-menu-item"' ?>><a href="<?php echo site_url('/news') ?>">News</a></li>
-                <li <?php if (is_page('events')) echo 'class="current-menu-item"' ?>><a href="<?php echo site_url('/events') ?>">Events</a></li>
+                <li <?php if (is_page('news') OR get_post_type() == 'news') echo 'class="current-menu-item"' ?>><a href="<?php echo site_url('/news') ?>">News</a></li>
+                <li <?php if (is_page('events') OR get_post_type() == 'event' OR is_page('past-events')) echo 'class="current-menu-item"' ?>><a href="<?php echo site_url('/events') ?>">Events</a></li>
                 <li <?php if (is_page('stories')) echo 'class="current-menu-item"' ?>><a href="<?php echo site_url('/stories') ?>">Stories</a></li>
                 <li <?php if (is_page('videos')) echo 'class="current-menu-item"' ?>><a href="<?php echo site_url('/videos') ?>">Videos</a></li>
                 <li <?php if (is_page('gallery')) echo 'class="current-menu-item"' ?>><a href="<?php echo site_url('/gallery') ?>">Gallery</a></li>
