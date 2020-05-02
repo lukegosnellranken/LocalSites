@@ -60,7 +60,8 @@
             <?php }
             ?>
 
-        <p class="t-center no-margin"><a href="<?php echo get_post_type_archive_link('event'); ?>" class="btn btn--blue">All Current Events</a></p>
+        <p class="t-center no-margin archive-link-desktop"><a href="<?php echo get_post_type_archive_link('event'); ?>" class="btn btn--blue btn--home">All Current Events</a></p>
+        <p class="archive-link-mobile"><a class="archive-link-mobile-link" href="<?php echo get_post_type_archive_link('event'); ?>">See All Current Events</a></p>
 
       </div>
     </div>
@@ -81,7 +82,7 @@
               </a>
               <div class="event-summary__content">
                 <h5 class="event-summary__title headline headline--tiny"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h5>
-                <p><?php if(has_excerpt()) {
+                <p class="home-post-content"><?php if(has_excerpt()) {
                   echo get_the_excerpt();
                 } else {
                   echo wp_trim_words(get_the_content(), 18);
@@ -91,7 +92,8 @@
           <?php } wp_reset_postdata();
         ?>
         
-        <p class="t-center no-margin"><a href="<?php echo site_url('/news'); ?>" class="btn btn--yellow">News Archive</a></p>
+        <p class="t-center no-margin archive-link-desktop"><a href="<?php echo site_url('/news'); ?>" class="btn btn--yellow btn--home">News Archive</a></p>
+        <p class="archive-link-mobile"><a class="archive-link-mobile-link" href="<?php echo site_url('/news'); ?>">Browse News Archive</a></p>
       </div>
     </div>
   </div>
@@ -111,7 +113,7 @@
         <p class="front-page-text">Ralph Barrale wanted to see a Veterans Museum that would honor all of those Veterans who served our country, and especially those from St. Charles County. This was but another example of Ralph Barrale’s dedication to our servicemen and women and his desire to keep their memories in the forefront of the generations of today so that our Veterans will not be forgotten.</p>
         <p class="front-page-text">The museum opened in the spring of 2019. There you will find “Ralph’s Story” among others like his, who served our country, because Ralph felt</p>
         <!-- <blockquote class="front-page-text">“NO ONE IS EVER GONE, AS LONG AS SOMEONE STILL HAS MEMORIES OF THEM”</blockquote> -->
-        <p class="ralph-quote">"No one is ever gone, as long as somebody still has memories of them."</p>
+        <p class="front-page-text ralph-quote">"No one is ever gone, as long as somebody still has memories of them."</p>
       </div>
 
     </div>
@@ -120,13 +122,14 @@
 
 
 
-
-  <div class="hero-slider">
+<!-- Hero slider -->
+<div class="hero-slider">
   <div class="hero-slider__slide" style="background-image: url(<?php echo get_theme_file_uri('images/camera/pano-7.jpg') ?>);">
     <div class="hero-slider__interior container">
       <div class="hero-slider__overlay">
         <h2 class="headline headline--medium t-center">Donate</h2>
-        <p class="t-center">A museum that honors the story of every veteran that has ever lived in St. Charles County. That’s a tall order! We need your help!</p>
+        <p class="t-center hero-slider-desktop">A museum that honors the story of every veteran that has ever lived in St. Charles County. That’s a tall order! We need your help!</p>
+        <p class="t-center hero-slider-mobile">We need your help!</p>
         <p class="t-center no-margin"><a href="<?php echo site_url('/donate') ?>" class="btn btn--blue">Learn more</a></p>
       </div>
     </div>
@@ -144,12 +147,14 @@
     <div class="hero-slider__interior container">
       <div class="hero-slider__overlay">
         <h2 class="headline headline--medium t-center">Volunteers</h2>
-        <p class="t-center">Learn how you can get involved with some of the most dedicated people in St. Charles County.</p>
+        <p class="t-center hero-slider-desktop">Learn how you can get involved with some of the most dedicated people in St. Charles County.</p>
+        <p class="t-center hero-slider-mobile">Learn how you can get involved.</p>
         <p class="t-center no-margin"><a href="<?php echo site_url('/volunteers') ?>" class="btn btn--blue">Learn more</a></p>
       </div>
     </div>
   </div>
 </div>
+
 
 <div id="map-flex-div" class= "row group">
   <div>

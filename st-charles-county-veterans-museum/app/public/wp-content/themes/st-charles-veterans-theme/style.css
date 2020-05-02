@@ -36,6 +36,8 @@ Version: 1.0
   .under-banner-text{
     font-size:0.85rem;
   }
+
+
 }
 
 @media (max-width: 450px) {
@@ -53,17 +55,70 @@ Version: 1.0
 }
 
 /* News and Events Home CSS */
+
+.archive-link-mobile{
+  display: none;
+  padding-left: 80px;
+  text-decoration: none;
+}
+
+.archive-link-mobile-link{
+  text-decoration: none;
+}
+
 .home-post-content{
   font-size: 1.1rem;
+  margin-bottom: 0rem;
+}
+
+@media (max-width: 900px) {
+
+  .event-summary{
+    display: block;
+    margin-left: 10%;
+  }
+
+  .home-post-content{
+    font-size: .9rem;
+    max-width: 30rem;
+  }
 }
 
 @media (max-width: 530px) {
+  .event-summary{
+    margin-left: 0px;
+  }
 
   .home-post-content{
     font-size: .8rem;
   }
+
+  .archive-link-desktop{
+    display: none;
+  }
+
+  .archive-link-mobile{
+    display: unset;
+  }
 }
 
+/* Home hero-slider CSS */
+.hero-slider-mobile{
+  display: none;
+}
+
+@media (max-width: 530px) {
+  .hero-slider-mobile{
+    display: unset;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 1.5rem;
+  }
+
+  .hero-slider-desktop{
+    display: none;
+  }
+}
 
 #home-transparent-line {
   display: block;
@@ -96,6 +151,7 @@ Version: 1.0
   margin-right: 16em;
   font-size: xx-large;
   min-width: 20em;
+  font-family: sans-serif;
 }
 
 .site-footer__nonlink{
@@ -114,20 +170,21 @@ Version: 1.0
 @media (max-width: 960px) {
   #ralph-image{
     display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 45%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 45%;
   }
 
-  .front-page-text{
+  .two-thirds .front-page-text{
     display: block;
     margin-left: 2em;
     margin-right: 2em;
+    font-size: 1rem;
   }
 }
 
 @media (max-width: 560px) {
-  .front-page-text{
+  .two-thirds .front-page-text{
     display: block;
     margin-top: 0.2em;
     margin-left: 2em;
@@ -2507,6 +2564,10 @@ Version: 1.0
   }
 
   @media (max-width: 530px) {
+
+    .event-summary {
+      padding-left: 80px;
+    }
 
     .event-summary__date{
       width: 65px;
