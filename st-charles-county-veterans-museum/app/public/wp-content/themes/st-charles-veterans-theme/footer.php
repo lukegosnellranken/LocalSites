@@ -6,7 +6,7 @@
   <div class="group">
 
     <div class="site-footer__col-one">
-      <h1 class="school-logo-text school-logo-text--alt-color"><a href="<?php echo site_url() ?>"><strong>St. Charles County</strong> Veterans Museum</a></h1>
+      <h1 class="museum-logo-text museum-logo-text--alt-color"><a href="<?php echo site_url() ?>"><strong>St. Charles County</strong> Veterans Museum</a></h1>
       <p><a class="site-footer__nonlink">636-294-2657<br>410 East Elm Street<br>O'Fallon, Missouri</a></p>
       
     </div>

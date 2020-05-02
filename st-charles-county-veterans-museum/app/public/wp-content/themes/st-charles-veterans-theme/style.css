@@ -21,7 +21,49 @@ Version: 1.0
   color: white;
   text-align: center;
   line-height: 0.8rem;
+  font-size: 1.05rem;
 }
+
+@media (max-width: 630px) {
+  
+  .under-banner-text{
+    font-size:0.95rem;
+  }
+}
+
+@media (max-width: 530px) {
+
+  .under-banner-text{
+    font-size:0.85rem;
+  }
+}
+
+@media (max-width: 450px) {
+
+  .under-banner-text{
+    font-size:0.75rem;
+  }
+}
+
+@media (max-width: 340px) {
+
+  .under-banner-text{
+    font-size:0.7rem;
+  }
+}
+
+/* News and Events Home CSS */
+.home-post-content{
+  font-size: 1.1rem;
+}
+
+@media (max-width: 530px) {
+
+  .home-post-content{
+    font-size: .8rem;
+  }
+}
+
 
 #home-transparent-line {
   display: block;
@@ -30,9 +72,7 @@ Version: 1.0
 }
 
 #front-page-ralph{
-  /*background-color: rgb(192, 149, 109);*/
   margin-top:-3%;
-  
 }
 
 #ralph-image{
@@ -86,6 +126,16 @@ Version: 1.0
   }
 }
 
+@media (max-width: 560px) {
+  .front-page-text{
+    display: block;
+    margin-top: 0.2em;
+    margin-left: 2em;
+    margin-right: 2em;
+    font-size: .8rem;
+  }
+}
+
 #map-mobile-div{
   display: none;
 }
@@ -95,6 +145,7 @@ Version: 1.0
   margin-left: auto;
   margin-right: auto;
   width: 80%;
+  height: 400px;
   margin-top: 6%;
 }
 
@@ -112,6 +163,12 @@ Version: 1.0
   justify-content: space-between;
   align-items: center;
   
+}
+
+@media (max-width: 520px) {
+  #map-mobile{
+    height: 300px;
+  }
 }
 
 @media (max-width: 1265px) {
@@ -944,28 +1001,42 @@ Version: 1.0
     margin-bottom: 0;
   }
   
-  .school-logo-text {
+  .museum-logo-text {
     position: relative;
     z-index: 20;
     margin: 0;
     font-size: 1.75rem;
     font-weight: 100;
   }
+
+  @media (max-width: 630px) {
   
-  .school-logo-text strong {
+    .museum-logo-text{
+      font-size:1.25rem;
+    }
+  }
+
+  @media (max-width: 530px) {
+  
+    .museum-logo-text{
+      font-size:1rem;
+    }
+  }
+  
+  .museum-logo-text strong {
     font-weight: 400;
   }
   
-  .school-logo-text a {
+  .museum-logo-text a {
     color: #FFF;
     text-decoration: none;
   }
   
-  .school-logo-text--alt-color a {
+  .museum-logo-text--alt-color a {
     color: #666;
   }
   
-  .school-logo-text--alt-color a:hover {
+  .museum-logo-text--alt-color a:hover {
     color: #0D3B66;
     text-decoration: underline;
   }
@@ -1303,6 +1374,13 @@ Version: 1.0
     padding: 12px 24px;
     border: none;
     outline: none;
+  }
+
+  @media (max-width: 530px) {
+
+    .btn{
+      font-size:0.8rem;
+    }
   }
   
   .btn--small {
@@ -2213,6 +2291,13 @@ Version: 1.0
     font-weight: 400;
     margin-bottom: 1.9rem;
   }
+
+  @media (max-width: 530px) {
+  
+    .headline--small-plus {
+      font-size: 1.25rem;
+    }
+  }
   
   .headline--small {
     font-size: 1.2rem;
@@ -2234,6 +2319,13 @@ Version: 1.0
     font-family: 'Roboto', sans-serif;
     font-size: 1.3875rem;
     margin-bottom: .25rem;
+  }
+
+  @media (max-width: 530px) {
+  
+    .headline--tiny {
+      font-size: 1rem;
+    }
   }
   
   .headline--post-title a {
@@ -2412,6 +2504,21 @@ Version: 1.0
     display: block;
     font-size: 2.02rem;
     font-weight: 700;
+  }
+
+  @media (max-width: 530px) {
+
+    .event-summary__date{
+      width: 65px;
+    }
+  
+    .event-summary__month {
+      font-size: 1rem;
+    }
+
+    .event-summary__day {
+      font-size: 1.3466rem;
+    }
   }
   
   .page-links {
