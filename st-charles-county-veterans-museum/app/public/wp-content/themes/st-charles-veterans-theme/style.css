@@ -86,6 +86,60 @@ Version: 1.0
   }
 }
 
+#map-mobile-div{
+  display: none;
+}
+
+#map-mobile{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  margin-top: 6%;
+}
+
+#museum-image-mobile{
+  margin-top: 6%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+
+#map-flex-div{
+  margin-top: 4%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+
+@media (max-width: 1265px) {
+  #map-flex-div{
+    display: none;
+  }
+
+  #map-mobile-div{
+    display: unset;
+  }
+}
+
+#museum-image{
+  /* margin-right: 60%;
+  margin-top: 5%;
+  height: 100%; */
+  min-width: 70%;
+  box-shadow: 3px 3px 3px 3px rgb(90, 87, 87);
+  margin-right: 0%;
+}
+
+#map{
+  /* margin-left: 20%;
+  margin-top: 5%;
+  width: 70%; */
+  margin-left: 0%;
+}
+
 /* Sponsor Packages CSS */
 
 #packages-title{
@@ -1855,6 +1909,13 @@ Version: 1.0
   .hero-slider__slide {
     background-size: cover;
     background-repeat: no-repeat;
+    height: 500px;
+  }
+
+  @media (max-width: 960px) {
+    .hero-slider__slide {
+      height: 350px;
+    }
   }
   
   .hero-slider__overlay {
