@@ -37,7 +37,7 @@
 
         <hr class="section-break">
 
-        Looking for a recap of past events? <a href="<?php echo site_url('/past-events') ?>">Check out our archive</a>.</p>
+        <p id="recap-info">Looking for a recap of past events? <a href="<?php echo site_url('/past-events') ?>">Check out our archive</a>.</p>
             
     </div>
 

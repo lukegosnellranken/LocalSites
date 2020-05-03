@@ -15,7 +15,7 @@ while(have_posts()) {
 
         if ($theParent) { ?>
             <div class="metabox metabox--position-up metabox--with-home-link">
-                <p><a class="metabox__blog-home-link" href="<?php echo get_permalink($theParent); ?>"><i class="fa fa-home" aria-hidden="true"></i> Back to <?php echo get_the_title($theParent); ?></a> <span class="metabox__main"><?php the_title(); ?></span></p>
+                <p><a class="metabox__blog-home-link" href="<?php echo get_permalink($theParent); ?>"><i class="fa fa-home" aria-hidden="true"></i> Back to <?php echo get_the_title($theParent); ?></a> <span class="metabox__main museum-events"><?php the_title(); ?></span></p>
             </div>
         <?php }
     ?>
@@ -68,6 +68,7 @@ while(have_posts()) {
                 </div>
             </div>
         </div>
+        <hr>
 
         <div class="packages-div row group">
             <div class="one-third">
@@ -88,10 +89,11 @@ while(have_posts()) {
                 </div>
             </div>
         </div>
+        <hr>
 
         <div class="packages-div row group">
             <div class="one-third">
-                <img class="sponsor-image" src="<?php echo get_theme_file_uri('images/sponsorpackages/patriot.png') ?>"/> 
+                <img class="sponsor-image" src="<?php echo get_theme_file_uri('images/sponsorpackages/grove.png') ?>"/> 
             </div>
 
             <p class="sponsor-title">The Grove - $5,000</p>
@@ -103,10 +105,11 @@ while(have_posts()) {
                 picture on website with sign and recognition in Ralph's Reveille.
             </p>
         </div>
+        <hr>
 
         <div class="packages-div row group">
             <div class="one-third">
-                <img class="sponsor-image" src="<?php echo get_theme_file_uri('images/sponsorpackages/patriot.png') ?>"/> 
+                <img class="sponsor-image" src="<?php echo get_theme_file_uri('images/sponsorpackages/memorial.png') ?>"/> 
             </div>
 
             <p class="sponsor-title">Veterans Memorial - $5,000</p>
@@ -119,10 +122,11 @@ while(have_posts()) {
                 The sponsor will be featured on the League of Honor Wall, picture on website with sign and recognition in Ralph's Reveille.
             </p>
         </div>
+        <hr>
 
         <div class="packages-div row group">
             <div class="one-third">
-                <img class="sponsor-image" src="<?php echo get_theme_file_uri('images/sponsorpackages/patriot.png') ?>"/> 
+                <img class="sponsor-image" src="<?php echo get_theme_file_uri('images/sponsorpackages/heroeswalk.png') ?>"/> 
             </div>
 
             <p class="sponsor-title">Heroes Walk - $4,000</p>
@@ -131,10 +135,11 @@ while(have_posts()) {
                 The sponsor will be featured on the League of Honor Wall, picture on website with sign and recognition in Ralph's Reveille.
             </p>
         </div>
+        <hr>
 
         <div class="packages-div row group">
             <div class="one-third">
-                <img class="sponsor-image" src="<?php echo get_theme_file_uri('images/sponsorpackages/patriot.png') ?>"/> 
+                <img class="sponsor-image" src="<?php echo get_theme_file_uri('images/sponsorpackages/healinggarden.png') ?>"/> 
             </div>
 
             <p class="sponsor-title">Veterans Healing Gardens - $3,000</p>
@@ -148,10 +153,11 @@ while(have_posts()) {
                 The sponsor will be featured on the League of Honor Wall, picture on website with sign and recognition in Ralph’s Reveille.
             </p>
         </div>
+        <hr>
 
         <div class="packages-div row group">
             <div class="one-third">
-                <img class="sponsor-image" src="<?php echo get_theme_file_uri('images/sponsorpackages/patriot.png') ?>"/> 
+                <img class="sponsor-image" src="<?php echo get_theme_file_uri('images/sponsorpackages/theatre.png') ?>"/> 
             </div>
 
             <p class="sponsor-title">Veterans Theatre - $2,500</p>
