@@ -30,8 +30,10 @@
 
                 if ($relatedVeterans->have_posts()) {
                     echo '<hr class="section-break">';
-                    echo '<h2 class="headline headline--medium">' . get_the_title() . ' Veterans</h2>';
-
+                    echo '<h2 class="headline headline--medium war-title-headline">' . get_the_title() . ' Veterans</h2>'; ?>
+                    <br>
+                    <br>
+                    <?php
                     echo '<ul class="professor-cards">';
                     while($relatedVeterans->have_posts()) {
                         $relatedVeterans->the_post(); ?>

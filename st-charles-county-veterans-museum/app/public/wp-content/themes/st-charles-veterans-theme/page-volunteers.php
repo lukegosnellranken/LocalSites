@@ -55,7 +55,7 @@ while(have_posts()) {
         
         <div class="one-half">
         <p class="volunteer-title">Would you like to get involved with some of the most dedicated people in St. Charles County?</p>
-        <p class="volunteer-info">If you would like to join the volunteers working to make the St. Charles County Veterans Museum a reality, then we would like to hear from you! 
+        <p class="volunteer-info"> We need your help! If you would like to join the volunteers working to make the St. Charles County Veterans Museum a reality, then we would like to hear from you! 
             You don’t need to be a Veteran, we love Patriots too!  
             Whether it is stuffing envelopes, building exhibits, helping with the Gift Shop, talking to groups, 
             working on the gardens, or maybe you have ideas we haven’t even thought of yet! We want to hear from you! 

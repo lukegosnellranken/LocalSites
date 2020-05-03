@@ -483,6 +483,37 @@ Version: 1.0
   font-size: 0.2rem
 }
 
+
+/* Veterans Stories CSS */
+.war-title-headline a{
+  text-decoration: underline;
+  color: rgb(39, 68, 15);
+}
+
+.war-title-headline{
+  text-align: center;
+  color: rgb(39, 68, 15);
+  font-size: 3rem;
+}
+
+@media (max-width: 900px) {
+  .war-title-headline{
+    font-size: 2.5rem;
+  }
+}
+
+@media (max-width: 630px) {
+  .war-title-headline{
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 500px) {
+  .war-title-headline{
+    font-size: 1.65rem;
+  }
+}
+
 /* 3rd party packages */
 
 /*! normalize.css v5.0.0 | MIT License | github.com/necolas/normalize.css */
@@ -2204,6 +2235,13 @@ Version: 1.0
     margin: 0 0 1rem 0;
     color: #FFF;
   }
+
+  @media (max-width: 960px) {
+  
+    .page-banner__title {
+      text-align: center;
+    }
+  }
   
   @media (max-width: 900px) {
   
@@ -2222,7 +2260,7 @@ Version: 1.0
   @media (max-width: 530px) {
   
     .page-banner__title {
-      font-size: 1.5rem;
+      font-size: 1.7rem;
     }
   }
   
@@ -2487,8 +2525,8 @@ Version: 1.0
   }
   
   .professor-cards {
-    margin: 0;
-    padding: 0;
+    display: block;
+    margin: 0 auto;
   }
   
   .search-overlay .professor-cards {
@@ -2500,8 +2538,30 @@ Version: 1.0
     display: inline-block;
     width: 200px;
     margin-right: 15px;
-    background-color: #F95738;
+    background-color: rgb(53, 77, 15);
     overflow: hidden;
+  }
+
+  @media (max-width: 960px) {
+  
+    .professor-card {
+      width: 150px;
+      margin-right: 0px;
+    }
+  }
+
+  @media (max-width: 530px) {
+  
+    .professor-card {
+      width: 125px;
+    }
+  }
+
+  @media (max-width: 336px) {
+  
+    .professor-card {
+      width: 115px;
+    }
   }
   
   .search-overlay .professor-card {
@@ -2513,6 +2573,7 @@ Version: 1.0
     transition: opacity .3s ease-out, -webkit-transform .3s ease-out;
     transition: opacity .3s ease-out, transform .3s ease-out;
     transition: opacity .3s ease-out, transform .3s ease-out, -webkit-transform .3s ease-out;
+    margin: 0 auto;
   }
   
   .professor-card:hover .professor-card__image {
@@ -2530,7 +2591,7 @@ Version: 1.0
     left: 0;
     right: 0;
     padding: 3px 10px;
-    background-color: rgba(236, 68, 34, 0.85);
+    background-color: rgba(168, 102, 39, 0.85);
   }
   
   .professor-card:hover .professor-card__name {

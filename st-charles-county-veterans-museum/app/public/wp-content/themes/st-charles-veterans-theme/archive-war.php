@@ -2,7 +2,7 @@
     get_header(); 
     pageBanner(array(
         'title' => 'Veterans Stories',
-        'subtitle' => 'Our Collection of Stories'
+        'subtitle' => ' '
     ));
 ?>
 
@@ -11,16 +11,41 @@
             while(have_posts()) {
                 the_post(); ?>
                 <div class = "post-item">
-                    <h2 class="headline headline--medium headline--post-title"><a href = "<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
+                    <h2 class="war-title-headline"><a href = "<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
+                    <br>
 
-                    <!-- <div class = "metabox">
-                        <p>Posted by <?php the_author_posts_link() ?> on <?php the_time('n.j.y'); ?> in <?php echo get_the_category_list(', '); ?></p>
-                    </div> -->
+                    <?php
+                        $relatedVeterans = new WP_Query(array(
+                            'posts_per_page' => -1,
+                            'post_type' => 'story',
+                            'orderby' => 'title',
+                            'order' => 'ASC',
+                            'meta_query' => array(
+                                array(
+                                    'key' => 'wars_involved',
+                                    'compare' => 'LIKE',
+                                    'value' => '"' . get_the_ID() . '"'
+                                )
+                            )
+                        ));
 
-                    <!-- <div class = "generic-content news-archive-content">
-                        <?php the_excerpt(); ?>
-                        <p><a class = "btn btn--blue" href="<?php the_permalink(); ?>">Continue reading</a></p>
-                    </div> -->
+                        if ($relatedVeterans->have_posts()) {
+
+                            echo '<ul class="professor-cards">';
+                            while($relatedVeterans->have_posts()) {
+                                $relatedVeterans->the_post(); ?>
+                                <li class="professor-card__list-item">
+                                    <a class="professor-card" href="<?php the_permalink(); ?>">
+                                        <img class="professor-card__image" src="<?php the_post_thumbnail_url('veteranCard'); ?>">
+                                        <span class="professor-card__name"><?php the_title(); ?></span>
+                                    </a>
+                                </li>
+                            <?php }
+                            echo '</ul>';
+                        }
+
+                        wp_reset_postdata();
+                    ?>
 
                 </div>
             <?php }

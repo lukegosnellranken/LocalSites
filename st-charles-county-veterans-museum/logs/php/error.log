@@ -410,3 +410,4 @@ Stack trace:
 [03-May-2020 04:18:53 UTC] PHP Parse error:  syntax error, unexpected 'add_image_size' (T_STRING) in C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-content\themes\st-charles-veterans-theme\functions.php on line 57
 [03-May-2020 04:19:50 UTC] PHP Parse error:  syntax error, unexpected 'add_image_size' (T_STRING) in C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-content\themes\st-charles-veterans-theme\functions.php on line 57
 [03-May-2020 04:19:50 UTC] PHP Parse error:  syntax error, unexpected 'add_image_size' (T_STRING) in C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-content\themes\st-charles-veterans-theme\functions.php on line 57
+[03-May-2020 20:35:38 UTC] PHP Parse error:  syntax error, unexpected '<' in C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-content\themes\st-charles-veterans-theme\single-war.php on line 34

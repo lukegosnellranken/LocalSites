@@ -7,7 +7,7 @@
 
         <div class="container container--narrow page-section">
             <div class="metabox metabox--position-up metabox--with-home-link">
-                <p><a class="metabox__blog-home-link" href="<?php echo site_url('/veteranstories') ?>"><i class="fa fa-home" aria-hidden="true"></i> Stories Home</a> <span class="metabox__main museum-events">Veterans Stories</span></p>
+                <p><a class="metabox__blog-home-link" href="<?php echo site_url('/stories') ?>"><i class="fa fa-home" aria-hidden="true"></i> Stories Home</a> <span class="metabox__main museum-events">Veterans Stories</span></p>
             </div>
             
             <div class="container container--narrow page-section">
@@ -20,6 +20,10 @@
 
                         <div class="two-thirds">
                             <?php the_content(); ?>
+                            <p><em>Please contact the St. Charles County Veterans Museum Oral History project at info@stcharlescountyveteransmuseum.com or call 636-294-2657 
+                                for more information and lets’ talk. We want to hear from you because we know…Every Veteran has a story.</em></p>
+
+
                         </div>
 
                     </div>

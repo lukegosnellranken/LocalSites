@@ -25,7 +25,7 @@ function museum_post_types() {
         'has_archive' => true,
         'public' => true,
         'rewrite' => array(
-            'slug' => 'veteranstories'
+            'slug' => 'stories'
         ),
         'labels' => array(
             'name' => 'Wars',
@@ -43,7 +43,7 @@ function museum_post_types() {
         'has_archive' => true,
         'public' => true,
         'rewrite' => array(
-            'slug' => 'stories'
+            'slug' => 'storiesarchive'
         ),
         'labels' => array(
             'name' => 'Stories',

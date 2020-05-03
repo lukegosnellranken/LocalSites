@@ -2,7 +2,7 @@
     get_header(); 
     pageBanner(array(
         'title' => 'Current Events',
-        'subtitle' => 'What is going on at the museum?'
+        'subtitle' => ' '
     ));
 ?>
     
