@@ -1,6 +1,8 @@
 <?php
 
 function museum_post_types() {
+
+    /* Events post type */
     register_post_type('event', array(
         'has_archive' => true,
         'public' => true,
@@ -15,6 +17,42 @@ function museum_post_types() {
             'singular_name' => 'Event'
         ),
         'menu_icon' => 'dashicons-calendar-alt'
+    ));
+
+    /* Wars post type */
+    register_post_type('war', array(
+        'supports' => array('title', 'editor'),
+        'has_archive' => true,
+        'public' => true,
+        'rewrite' => array(
+            'slug' => 'veteranstories'
+        ),
+        'labels' => array(
+            'name' => 'Wars',
+            'add_new_item' => 'Add New War',
+            'edit_item' => 'Edit War',
+            'all_items' => 'All Wars',
+            'singular_name' => 'War'
+        ),
+        'menu_icon' => 'dashicons-admin-site-alt3'
+    ));
+
+    /* Stories post type */
+    register_post_type('story', array(
+        'supports' => array('title', 'editor', 'thumbnail'),
+        'has_archive' => true,
+        'public' => true,
+        'rewrite' => array(
+            'slug' => 'stories'
+        ),
+        'labels' => array(
+            'name' => 'Stories',
+            'add_new_item' => 'Add New Story',
+            'edit_item' => 'Edit Story',
+            'all_items' => 'All Stories',
+            'singular_name' => 'Story'
+        ),
+        'menu_icon' => 'dashicons-book'
     ));
   }
 
