@@ -411,3 +411,12 @@ Stack trace:
 [03-May-2020 04:19:50 UTC] PHP Parse error:  syntax error, unexpected 'add_image_size' (T_STRING) in C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-content\themes\st-charles-veterans-theme\functions.php on line 57
 [03-May-2020 04:19:50 UTC] PHP Parse error:  syntax error, unexpected 'add_image_size' (T_STRING) in C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-content\themes\st-charles-veterans-theme\functions.php on line 57
 [03-May-2020 20:35:38 UTC] PHP Parse error:  syntax error, unexpected '<' in C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-content\themes\st-charles-veterans-theme\single-war.php on line 34
+[04-May-2020 05:38:25 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function wp_localize_script(), 0 passed in C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-content\themes\st-charles-veterans-theme\functions.php on line 48 and exactly 3 expected in C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-includes\functions.wp-scripts.php:193
+Stack trace:
+#0 C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-content\themes\st-charles-veterans-theme\functions.php(48): wp_localize_script()
+#1 C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-includes\class-wp-hook.php(287): museum_files('')
+#2 C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#3 C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#4 C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public in C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-includes\functions.wp-scripts.php on line 193
+[04-May-2020 05:39:46 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-content\themes\st-charles-veterans-theme\functions.php on line 49
+[04-May-2020 06:53:48 UTC] PHP Parse error:  syntax error, unexpected end of file in C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-content\themes\st-charles-veterans-theme\inc\search-route.php on line 37

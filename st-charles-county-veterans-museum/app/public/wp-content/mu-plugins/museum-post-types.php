@@ -39,6 +39,7 @@ function museum_post_types() {
 
     /* Stories post type */
     register_post_type('story', array(
+        'show_in_rest' => true,
         'supports' => array('title', 'editor', 'thumbnail'),
         'has_archive' => true,
         'public' => true,

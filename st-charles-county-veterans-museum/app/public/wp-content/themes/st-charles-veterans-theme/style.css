@@ -2467,7 +2467,7 @@ Version: 1.0
   .search-overlay__icon {
     margin-right: 10px;
     font-size: 1.8rem;
-    color: #F95738;
+    color: rgb(29, 82, 18);
   }
   
   @media (min-width: 960px) {
@@ -2539,7 +2539,7 @@ Version: 1.0
     font-size: 1rem;
     font-weight: 300;
     outline: none;
-    color: #F95738;
+    color: rgb(52, 92, 19);
   
   }
   

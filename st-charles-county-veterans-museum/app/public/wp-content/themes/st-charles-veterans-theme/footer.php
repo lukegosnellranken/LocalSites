@@ -49,7 +49,6 @@
 <p class="gosnell-footer">Site created and designed by <a class="gosnell-link" target="_blank" rel="noopener noreferrer" href="http://lukegosnell.com">Luke Gosnell</a>  - &#169;2020</p>
 </footer>
 
-
 <?php wp_footer(); ?>
 
 </body>
