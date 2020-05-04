@@ -34,8 +34,8 @@
                             echo '<ul class="professor-cards">';
                             while($relatedVeterans->have_posts()) {
                                 $relatedVeterans->the_post(); ?>
-                                <li class="professor-card__list-item">
-                                    <a class="professor-card" href="<?php the_permalink(); ?>">
+                                <li class="professor-card__list-item" id="veteran-card__list-item_mobile-margin">
+                                    <a class="professor-card" id="veteran-card__list-item_mobile" href="<?php the_permalink(); ?>">
                                         <img class="professor-card__image" src="<?php the_post_thumbnail_url('veteranCard'); ?>">
                                         <span class="professor-card__name"><?php the_title(); ?></span>
                                     </a>

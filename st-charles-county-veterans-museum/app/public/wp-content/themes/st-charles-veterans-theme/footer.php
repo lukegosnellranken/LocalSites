@@ -27,8 +27,8 @@
 
       <div class="site-footer__col-three">
         <h3 class="headline headline--small">Give</h3>
-        <img id="footer-donate" src="<?php echo get_theme_file_uri('images/donate-button-desktop.png') ?>" /> 
-        <img id="footer-donate-mobile" src="<?php echo get_theme_file_uri('images/donate-button.png') ?>" /> 
+        <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=ZHQ8PP5YS82AQ"><img id="footer-donate" src="<?php echo get_theme_file_uri('images/donate-button-desktop.png') ?>" /></a>
+        <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=ZHQ8PP5YS82AQ"><img id="footer-donate-mobile" src="<?php echo get_theme_file_uri('images/donate-button.png') ?>" /></a>
       </div>
     </div>
 

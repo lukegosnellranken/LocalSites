@@ -53,9 +53,9 @@ class Search {
             
             ${results.stories.length ? '<ul class="professor-cards">' : '<p>No veterans match that search.</p>'}
               ${results.stories.map(item => `
-                <li class="professor-card__list-item">
+                <li class="professor-card__list-item veteran-card__mobile-search">
                     <a class="professor-card" href="${item.permalink}">
-                        <img class="professor-card__image" src="${item.image}">
+                        <img class="professor-card__image professor-card__image_mobile" src="${item.image}">
                         <span class="professor-card__name">${item.title}</span>
                     </a>
                 </li>

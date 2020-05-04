@@ -113,7 +113,7 @@
         <p class="front-page-text">Ralph Barrale wanted to see a Veterans Museum that would honor all of those Veterans who served our country, and especially those from St. Charles County. This was but another example of Ralph Barrale’s dedication to our servicemen and women and his desire to keep their memories in the forefront of the generations of today so that our Veterans will not be forgotten.</p>
         <p class="front-page-text">The museum opened in the spring of 2019. There you will find “Ralph’s Story” among others like his, who served our country, because Ralph felt</p>
         <!-- <blockquote class="front-page-text">“NO ONE IS EVER GONE, AS LONG AS SOMEONE STILL HAS MEMORIES OF THEM”</blockquote> -->
-        <p class="front-page-text ralph-quote">"No one is ever gone, as long as somebody still has memories of them."</p>
+        <p class="front-page-text ralph-quote"><span class="quotation">"</span>No one is ever gone, as long as somebody still has memories of them.<span class="quotation">"</span></h3></p>
       </div>
 
     </div>
@@ -170,7 +170,8 @@
     <iframe id="map-mobile" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3108.997857780127!2d-90.69608018465223!3d38.809602379584405!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87ded1f87c5419a5%3A0x7ea528bc8dd3c52d!2sSt%20Charles%20County%20Veterans%20Museum!5e0!3m2!1sen!2sus!4v1588384446196!5m2!1sen!2sus" width="640" height="427" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
   </div>
   <div>
-    <img id="museum-image-mobile" src="<?php echo get_theme_file_uri('images/veterans-museum-pic3-text.png') ?>"/> 
+    <img id="museum-image-mobile" class="motto-image" src="<?php echo get_theme_file_uri('images/veterans-museum-pic3-text.png') ?>"/> 
+    <img id="museum-image-mobile" class="motto-image-mobile" src="<?php echo get_theme_file_uri('images/veterans-museum-pic3.png') ?>"/> 
   </div>
 </div>
 
