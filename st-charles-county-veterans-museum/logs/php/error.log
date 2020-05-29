@@ -420,3 +420,322 @@ Stack trace:
 #4 C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public in C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-includes\functions.wp-scripts.php on line 193
 [04-May-2020 05:39:46 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-content\themes\st-charles-veterans-theme\functions.php on line 49
 [04-May-2020 06:53:48 UTC] PHP Parse error:  syntax error, unexpected end of file in C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-content\themes\st-charles-veterans-theme\inc\search-route.php on line 37
+[04-May-2020 10:52:24 UTC] Shell mysql dump error DETAIL:change Mysql dump engine in PHP mode
+[04-May-2020 10:52:24 UTC] Runtime error in DUP_Database::Build DETAIL:Exception: Exception: DUPLICATOR ERROR: Please see the 'Package Log' file link below. in C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-content\plugins\duplicator\classes\class.logging.php:275
+Stack trace:
+#0 C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-content\plugins\duplicator\classes\package\class.pack.database.php(545): DUP_Log::Error('Shell mysql dum...', 'change Mysql du...', 1)
+#1 C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-content\plugins\duplicator\classes\package\class.pack.database.php(187): DUP_Database->mysqlDump('C:/xampp/mysql/...')
+#2 C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-content\plugins\duplicator\classes\package\class.pack.php(1233): DUP_Database->build(Object(DUP_Package), 1)
+#3 C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-content\plugins\duplicator\ctrls\ctrl.package.php(97): DUP_Package->runZipBuild()
+#4 C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-includes\class-wp-hook.php(287): duplicator_package_build('')
+#5 C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#6 C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#7 C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-admin\admin-ajax.php(175): do_action('wp_ajax_duplica...')
+#8 {main}
+[04-May-2020 10:55:26 UTC] Shell mysql dump error DETAIL:change Mysql dump engine in PHP mode
+[04-May-2020 10:55:26 UTC] Runtime error in DUP_Database::Build DETAIL:Exception: Exception: DUPLICATOR ERROR: Please see the 'Package Log' file link below. in C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-content\plugins\duplicator\classes\class.logging.php:275
+Stack trace:
+#0 C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-content\plugins\duplicator\classes\package\class.pack.database.php(545): DUP_Log::Error('Shell mysql dum...', 'change Mysql du...', 1)
+#1 C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-content\plugins\duplicator\classes\package\class.pack.database.php(187): DUP_Database->mysqlDump('C:/xampp/mysql/...')
+#2 C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-content\plugins\duplicator\classes\package\class.pack.php(1233): DUP_Database->build(Object(DUP_Package), 1)
+#3 C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-content\plugins\duplicator\ctrls\ctrl.package.php(97): DUP_Package->runZipBuild()
+#4 C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-includes\class-wp-hook.php(287): duplicator_package_build('')
+#5 C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#6 C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#7 C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-admin\admin-ajax.php(175): do_action('wp_ajax_duplica...')
+#8 {main}
+[04-May-2020 10:57:09 UTC] Shell mysql dump error DETAIL:change Mysql dump engine in PHP mode
+[04-May-2020 10:57:09 UTC] Runtime error in DUP_Database::Build DETAIL:Exception: Exception: DUPLICATOR ERROR: Please see the 'Package Log' file link below. in C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-content\plugins\duplicator\classes\class.logging.php:275
+Stack trace:
+#0 C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-content\plugins\duplicator\classes\package\class.pack.database.php(545): DUP_Log::Error('Shell mysql dum...', 'change Mysql du...', 1)
+#1 C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-content\plugins\duplicator\classes\package\class.pack.database.php(187): DUP_Database->mysqlDump('C:/xampp/mysql/...')
+#2 C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-content\plugins\duplicator\classes\package\class.pack.php(1164): DUP_Database->build(Object(DUP_Package), 1)
+#3 C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-content\plugins\duplicator\ctrls\ctrl.package.php(185): DUP_Package->runDupArchiveBuild()
+#4 C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-includes\class-wp-hook.php(287): duplicator_duparchive_package_build('')
+#5 C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#6 C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#7 C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-admin\admin-ajax.php(175): do_action('wp_ajax_duplica...')
+#8 {main}
+[04-May-2020 10:57:09 UTC] [CTRL DUP ARCIVE]  Caught exception DETAIL:DUPLICATOR ERROR: Please see the 'Package Log' file link below.
+[04-May-2020 10:57:10 UTC] Build failed so sending back error DETAIL:Error building DupArchive package&lt;br/&gt;
+[17-May-2020 05:35:13 UTC] PHP Warning:  Illegal string offset 'sizes' in C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-content\themes\st-charles-veterans-theme\functions.php on line 25
+[17-May-2020 05:35:13 UTC] PHP Stack trace:
+[17-May-2020 05:35:13 UTC] PHP   1. {main}() C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\index.php:0
+[17-May-2020 05:35:13 UTC] PHP   2. require() C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\index.php:17
+[17-May-2020 05:35:13 UTC] PHP   3. require_once() C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-blog-header.php:19
+[17-May-2020 05:35:13 UTC] PHP   4. include() C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-includes\template-loader.php:106
+[17-May-2020 05:35:13 UTC] PHP   5. pageBanner() C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-content\themes\st-charles-veterans-theme\archive-event.php:4
+[17-May-2020 05:35:13 UTC] PHP Warning:  Illegal string offset 'pageBanner' in C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-content\themes\st-charles-veterans-theme\functions.php on line 25
+[17-May-2020 05:35:13 UTC] PHP Stack trace:
+[17-May-2020 05:35:13 UTC] PHP   1. {main}() C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\index.php:0
+[17-May-2020 05:35:13 UTC] PHP   2. require() C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\index.php:17
+[17-May-2020 05:35:13 UTC] PHP   3. require_once() C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-blog-header.php:19
+[17-May-2020 05:35:13 UTC] PHP   4. include() C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-includes\template-loader.php:106
+[17-May-2020 05:35:13 UTC] PHP   5. pageBanner() C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-content\themes\st-charles-veterans-theme\archive-event.php:4
+[17-May-2020 05:36:11 UTC] PHP Warning:  Illegal string offset 'sizes' in C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-content\themes\st-charles-veterans-theme\functions.php on line 25
+[17-May-2020 05:36:11 UTC] PHP Stack trace:
+[17-May-2020 05:36:11 UTC] PHP   1. {main}() C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\index.php:0
+[17-May-2020 05:36:11 UTC] PHP   2. require() C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\index.php:17
+[17-May-2020 05:36:11 UTC] PHP   3. require_once() C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-blog-header.php:19
+[17-May-2020 05:36:11 UTC] PHP   4. include() C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-includes\template-loader.php:106
+[17-May-2020 05:36:11 UTC] PHP   5. pageBanner() C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-content\themes\st-charles-veterans-theme\archive-event.php:4
+[17-May-2020 05:36:11 UTC] PHP Warning:  Illegal string offset 'pageBanner' in C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-content\themes\st-charles-veterans-theme\functions.php on line 25
+[17-May-2020 05:36:11 UTC] PHP Stack trace:
+[17-May-2020 05:36:11 UTC] PHP   1. {main}() C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\index.php:0
+[17-May-2020 05:36:11 UTC] PHP   2. require() C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\index.php:17
+[17-May-2020 05:36:11 UTC] PHP   3. require_once() C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-blog-header.php:19
+[17-May-2020 05:36:11 UTC] PHP   4. include() C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-includes\template-loader.php:106
+[17-May-2020 05:36:11 UTC] PHP   5. pageBanner() C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-content\themes\st-charles-veterans-theme\archive-event.php:4
+[17-May-2020 05:36:12 UTC] PHP Warning:  Illegal string offset 'sizes' in C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-content\themes\st-charles-veterans-theme\functions.php on line 25
+[17-May-2020 05:36:12 UTC] PHP Stack trace:
+[17-May-2020 05:36:12 UTC] PHP   1. {main}() C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\index.php:0
+[17-May-2020 05:36:12 UTC] PHP   2. require() C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\index.php:17
+[17-May-2020 05:36:12 UTC] PHP   3. require_once() C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-blog-header.php:19
+[17-May-2020 05:36:12 UTC] PHP   4. include() C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-includes\template-loader.php:106
+[17-May-2020 05:36:12 UTC] PHP   5. pageBanner() C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-content\themes\st-charles-veterans-theme\archive-event.php:4
+[17-May-2020 05:36:12 UTC] PHP Warning:  Illegal string offset 'pageBanner' in C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-content\themes\st-charles-veterans-theme\functions.php on line 25
+[17-May-2020 05:36:12 UTC] PHP Stack trace:
+[17-May-2020 05:36:12 UTC] PHP   1. {main}() C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\index.php:0
+[17-May-2020 05:36:12 UTC] PHP   2. require() C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\index.php:17
+[17-May-2020 05:36:12 UTC] PHP   3. require_once() C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-blog-header.php:19
+[17-May-2020 05:36:12 UTC] PHP   4. include() C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-includes\template-loader.php:106
+[17-May-2020 05:36:12 UTC] PHP   5. pageBanner() C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-content\themes\st-charles-veterans-theme\archive-event.php:4
+[17-May-2020 05:36:16 UTC] PHP Warning:  Illegal string offset 'sizes' in C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-content\themes\st-charles-veterans-theme\functions.php on line 25
+[17-May-2020 05:36:16 UTC] PHP Stack trace:
+[17-May-2020 05:36:16 UTC] PHP   1. {main}() C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\index.php:0
+[17-May-2020 05:36:16 UTC] PHP   2. require() C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\index.php:17
+[17-May-2020 05:36:16 UTC] PHP   3. require_once() C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-blog-header.php:19
+[17-May-2020 05:36:16 UTC] PHP   4. include() C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-includes\template-loader.php:106
+[17-May-2020 05:36:16 UTC] PHP   5. pageBanner() C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-content\themes\st-charles-veterans-theme\archive-event.php:4
+[17-May-2020 05:36:16 UTC] PHP Warning:  Illegal string offset 'pageBanner' in C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-content\themes\st-charles-veterans-theme\functions.php on line 25
+[17-May-2020 05:36:16 UTC] PHP Stack trace:
+[17-May-2020 05:36:16 UTC] PHP   1. {main}() C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\index.php:0
+[17-May-2020 05:36:16 UTC] PHP   2. require() C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\index.php:17
+[17-May-2020 05:36:16 UTC] PHP   3. require_once() C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-blog-header.php:19
+[17-May-2020 05:36:16 UTC] PHP   4. include() C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-includes\template-loader.php:106
+[17-May-2020 05:36:16 UTC] PHP   5. pageBanner() C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-content\themes\st-charles-veterans-theme\archive-event.php:4
+[17-May-2020 05:36:40 UTC] PHP Warning:  Illegal string offset 'sizes' in C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-content\themes\st-charles-veterans-theme\functions.php on line 25
+[17-May-2020 05:36:40 UTC] PHP Stack trace:
+[17-May-2020 05:36:40 UTC] PHP   1. {main}() C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\index.php:0
+[17-May-2020 05:36:40 UTC] PHP   2. require() C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\index.php:17
+[17-May-2020 05:36:40 UTC] PHP   3. require_once() C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-blog-header.php:19
+[17-May-2020 05:36:40 UTC] PHP   4. include() C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-includes\template-loader.php:106
+[17-May-2020 05:36:40 UTC] PHP   5. pageBanner() C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-content\themes\st-charles-veterans-theme\archive-event.php:4
+[17-May-2020 05:36:40 UTC] PHP Warning:  Illegal string offset 'pageBanner' in C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-content\themes\st-charles-veterans-theme\functions.php on line 25
+[17-May-2020 05:36:40 UTC] PHP Stack trace:
+[17-May-2020 05:36:40 UTC] PHP   1. {main}() C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\index.php:0
+[17-May-2020 05:36:40 UTC] PHP   2. require() C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\index.php:17
+[17-May-2020 05:36:40 UTC] PHP   3. require_once() C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-blog-header.php:19
+[17-May-2020 05:36:40 UTC] PHP   4. include() C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-includes\template-loader.php:106
+[17-May-2020 05:36:40 UTC] PHP   5. pageBanner() C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-content\themes\st-charles-veterans-theme\archive-event.php:4
+[17-May-2020 05:36:56 UTC] PHP Warning:  Illegal string offset 'sizes' in C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-content\themes\st-charles-veterans-theme\functions.php on line 25
+[17-May-2020 05:36:56 UTC] PHP Stack trace:
+[17-May-2020 05:36:56 UTC] PHP   1. {main}() C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\index.php:0
+[17-May-2020 05:36:56 UTC] PHP   2. require() C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\index.php:17
+[17-May-2020 05:36:56 UTC] PHP   3. require_once() C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-blog-header.php:19
+[17-May-2020 05:36:56 UTC] PHP   4. include() C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-includes\template-loader.php:106
+[17-May-2020 05:36:56 UTC] PHP   5. pageBanner() C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-content\themes\st-charles-veterans-theme\archive-event.php:4
+[17-May-2020 05:36:56 UTC] PHP Warning:  Illegal string offset 'pageBanner' in C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-content\themes\st-charles-veterans-theme\functions.php on line 25
+[17-May-2020 05:36:56 UTC] PHP Stack trace:
+[17-May-2020 05:36:56 UTC] PHP   1. {main}() C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\index.php:0
+[17-May-2020 05:36:56 UTC] PHP   2. require() C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\index.php:17
+[17-May-2020 05:36:56 UTC] PHP   3. require_once() C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-blog-header.php:19
+[17-May-2020 05:36:56 UTC] PHP   4. include() C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-includes\template-loader.php:106
+[17-May-2020 05:36:56 UTC] PHP   5. pageBanner() C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-content\themes\st-charles-veterans-theme\archive-event.php:4
+[17-May-2020 05:39:21 UTC] PHP Warning:  Illegal string offset 'sizes' in C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-content\themes\st-charles-veterans-theme\functions.php on line 25
+[17-May-2020 05:39:21 UTC] PHP Stack trace:
+[17-May-2020 05:39:21 UTC] PHP   1. {main}() C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\index.php:0
+[17-May-2020 05:39:21 UTC] PHP   2. require() C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\index.php:17
+[17-May-2020 05:39:21 UTC] PHP   3. require_once() C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-blog-header.php:19
+[17-May-2020 05:39:21 UTC] PHP   4. include() C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-includes\template-loader.php:106
+[17-May-2020 05:39:21 UTC] PHP   5. pageBanner() C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-content\themes\st-charles-veterans-theme\archive-event.php:4
+[17-May-2020 05:39:21 UTC] PHP Warning:  Illegal string offset 'pageBanner' in C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-content\themes\st-charles-veterans-theme\functions.php on line 25
+[17-May-2020 05:39:21 UTC] PHP Stack trace:
+[17-May-2020 05:39:21 UTC] PHP   1. {main}() C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\index.php:0
+[17-May-2020 05:39:21 UTC] PHP   2. require() C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\index.php:17
+[17-May-2020 05:39:21 UTC] PHP   3. require_once() C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-blog-header.php:19
+[17-May-2020 05:39:21 UTC] PHP   4. include() C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-includes\template-loader.php:106
+[17-May-2020 05:39:21 UTC] PHP   5. pageBanner() C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-content\themes\st-charles-veterans-theme\archive-event.php:4
+[17-May-2020 05:40:38 UTC] PHP Warning:  Illegal string offset 'sizes' in C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-content\themes\st-charles-veterans-theme\functions.php on line 25
+[17-May-2020 05:40:38 UTC] PHP Stack trace:
+[17-May-2020 05:40:38 UTC] PHP   1. {main}() C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\index.php:0
+[17-May-2020 05:40:38 UTC] PHP   2. require() C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\index.php:17
+[17-May-2020 05:40:38 UTC] PHP   3. require_once() C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-blog-header.php:19
+[17-May-2020 05:40:38 UTC] PHP   4. include() C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-includes\template-loader.php:106
+[17-May-2020 05:40:38 UTC] PHP   5. pageBanner() C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-content\themes\st-charles-veterans-theme\archive-event.php:5
+[17-May-2020 05:40:38 UTC] PHP Warning:  Illegal string offset 'pageBanner' in C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-content\themes\st-charles-veterans-theme\functions.php on line 25
+[17-May-2020 05:40:38 UTC] PHP Stack trace:
+[17-May-2020 05:40:38 UTC] PHP   1. {main}() C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\index.php:0
+[17-May-2020 05:40:38 UTC] PHP   2. require() C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\index.php:17
+[17-May-2020 05:40:38 UTC] PHP   3. require_once() C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-blog-header.php:19
+[17-May-2020 05:40:38 UTC] PHP   4. include() C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-includes\template-loader.php:106
+[17-May-2020 05:40:38 UTC] PHP   5. pageBanner() C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-content\themes\st-charles-veterans-theme\archive-event.php:5
+[17-May-2020 05:40:48 UTC] PHP Warning:  Illegal string offset 'sizes' in C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-content\themes\st-charles-veterans-theme\functions.php on line 25
+[17-May-2020 05:40:48 UTC] PHP Stack trace:
+[17-May-2020 05:40:48 UTC] PHP   1. {main}() C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\index.php:0
+[17-May-2020 05:40:48 UTC] PHP   2. require() C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\index.php:17
+[17-May-2020 05:40:48 UTC] PHP   3. require_once() C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-blog-header.php:19
+[17-May-2020 05:40:48 UTC] PHP   4. include() C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-includes\template-loader.php:106
+[17-May-2020 05:40:48 UTC] PHP   5. pageBanner() C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-content\themes\st-charles-veterans-theme\archive-event.php:4
+[17-May-2020 05:40:48 UTC] PHP Warning:  Illegal string offset 'pageBanner' in C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-content\themes\st-charles-veterans-theme\functions.php on line 25
+[17-May-2020 05:40:48 UTC] PHP Stack trace:
+[17-May-2020 05:40:48 UTC] PHP   1. {main}() C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\index.php:0
+[17-May-2020 05:40:48 UTC] PHP   2. require() C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\index.php:17
+[17-May-2020 05:40:48 UTC] PHP   3. require_once() C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-blog-header.php:19
+[17-May-2020 05:40:48 UTC] PHP   4. include() C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-includes\template-loader.php:106
+[17-May-2020 05:40:48 UTC] PHP   5. pageBanner() C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-content\themes\st-charles-veterans-theme\archive-event.php:4
+[17-May-2020 05:42:20 UTC] PHP Warning:  Illegal string offset 'sizes' in C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-content\themes\st-charles-veterans-theme\functions.php on line 25
+[17-May-2020 05:42:20 UTC] PHP Stack trace:
+[17-May-2020 05:42:20 UTC] PHP   1. {main}() C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\index.php:0
+[17-May-2020 05:42:20 UTC] PHP   2. require() C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\index.php:17
+[17-May-2020 05:42:20 UTC] PHP   3. require_once() C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-blog-header.php:19
+[17-May-2020 05:42:20 UTC] PHP   4. include() C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-includes\template-loader.php:106
+[17-May-2020 05:42:20 UTC] PHP   5. pageBanner() C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-content\themes\st-charles-veterans-theme\archive-event.php:6
+[17-May-2020 05:42:20 UTC] PHP Warning:  Illegal string offset 'pageBanner' in C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-content\themes\st-charles-veterans-theme\functions.php on line 25
+[17-May-2020 05:42:20 UTC] PHP Stack trace:
+[17-May-2020 05:42:20 UTC] PHP   1. {main}() C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\index.php:0
+[17-May-2020 05:42:20 UTC] PHP   2. require() C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\index.php:17
+[17-May-2020 05:42:20 UTC] PHP   3. require_once() C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-blog-header.php:19
+[17-May-2020 05:42:20 UTC] PHP   4. include() C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-includes\template-loader.php:106
+[17-May-2020 05:42:20 UTC] PHP   5. pageBanner() C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-content\themes\st-charles-veterans-theme\archive-event.php:6
+[17-May-2020 05:42:24 UTC] PHP Warning:  Illegal string offset 'sizes' in C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-content\themes\st-charles-veterans-theme\functions.php on line 25
+[17-May-2020 05:42:24 UTC] PHP Stack trace:
+[17-May-2020 05:42:24 UTC] PHP   1. {main}() C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\index.php:0
+[17-May-2020 05:42:24 UTC] PHP   2. require() C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\index.php:17
+[17-May-2020 05:42:24 UTC] PHP   3. require_once() C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-blog-header.php:19
+[17-May-2020 05:42:24 UTC] PHP   4. include() C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-includes\template-loader.php:106
+[17-May-2020 05:42:24 UTC] PHP   5. pageBanner() C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-content\themes\st-charles-veterans-theme\archive-event.php:6
+[17-May-2020 05:42:24 UTC] PHP Warning:  Illegal string offset 'pageBanner' in C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-content\themes\st-charles-veterans-theme\functions.php on line 25
+[17-May-2020 05:42:24 UTC] PHP Stack trace:
+[17-May-2020 05:42:24 UTC] PHP   1. {main}() C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\index.php:0
+[17-May-2020 05:42:24 UTC] PHP   2. require() C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\index.php:17
+[17-May-2020 05:42:24 UTC] PHP   3. require_once() C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-blog-header.php:19
+[17-May-2020 05:42:24 UTC] PHP   4. include() C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-includes\template-loader.php:106
+[17-May-2020 05:42:24 UTC] PHP   5. pageBanner() C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-content\themes\st-charles-veterans-theme\archive-event.php:6
+[17-May-2020 05:42:24 UTC] PHP Warning:  Illegal string offset 'sizes' in C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-content\themes\st-charles-veterans-theme\functions.php on line 25
+[17-May-2020 05:42:24 UTC] PHP Stack trace:
+[17-May-2020 05:42:24 UTC] PHP   1. {main}() C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\index.php:0
+[17-May-2020 05:42:24 UTC] PHP   2. require() C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\index.php:17
+[17-May-2020 05:42:24 UTC] PHP   3. require_once() C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-blog-header.php:19
+[17-May-2020 05:42:24 UTC] PHP   4. include() C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-includes\template-loader.php:106
+[17-May-2020 05:42:24 UTC] PHP   5. pageBanner() C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-content\themes\st-charles-veterans-theme\archive-event.php:6
+[17-May-2020 05:42:24 UTC] PHP Warning:  Illegal string offset 'pageBanner' in C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-content\themes\st-charles-veterans-theme\functions.php on line 25
+[17-May-2020 05:42:24 UTC] PHP Stack trace:
+[17-May-2020 05:42:24 UTC] PHP   1. {main}() C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\index.php:0
+[17-May-2020 05:42:24 UTC] PHP   2. require() C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\index.php:17
+[17-May-2020 05:42:24 UTC] PHP   3. require_once() C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-blog-header.php:19
+[17-May-2020 05:42:24 UTC] PHP   4. include() C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-includes\template-loader.php:106
+[17-May-2020 05:42:24 UTC] PHP   5. pageBanner() C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-content\themes\st-charles-veterans-theme\archive-event.php:6
+[17-May-2020 05:42:25 UTC] PHP Warning:  Illegal string offset 'sizes' in C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-content\themes\st-charles-veterans-theme\functions.php on line 25
+[17-May-2020 05:42:25 UTC] PHP Stack trace:
+[17-May-2020 05:42:25 UTC] PHP   1. {main}() C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\index.php:0
+[17-May-2020 05:42:25 UTC] PHP   2. require() C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\index.php:17
+[17-May-2020 05:42:25 UTC] PHP   3. require_once() C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-blog-header.php:19
+[17-May-2020 05:42:25 UTC] PHP   4. include() C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-includes\template-loader.php:106
+[17-May-2020 05:42:25 UTC] PHP   5. pageBanner() C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-content\themes\st-charles-veterans-theme\archive-event.php:6
+[17-May-2020 05:42:25 UTC] PHP Warning:  Illegal string offset 'pageBanner' in C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-content\themes\st-charles-veterans-theme\functions.php on line 25
+[17-May-2020 05:42:25 UTC] PHP Stack trace:
+[17-May-2020 05:42:25 UTC] PHP   1. {main}() C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\index.php:0
+[17-May-2020 05:42:25 UTC] PHP   2. require() C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\index.php:17
+[17-May-2020 05:42:25 UTC] PHP   3. require_once() C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-blog-header.php:19
+[17-May-2020 05:42:25 UTC] PHP   4. include() C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-includes\template-loader.php:106
+[17-May-2020 05:42:25 UTC] PHP   5. pageBanner() C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-content\themes\st-charles-veterans-theme\archive-event.php:6
+[17-May-2020 05:42:26 UTC] PHP Warning:  Illegal string offset 'sizes' in C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-content\themes\st-charles-veterans-theme\functions.php on line 25
+[17-May-2020 05:42:26 UTC] PHP Stack trace:
+[17-May-2020 05:42:26 UTC] PHP   1. {main}() C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\index.php:0
+[17-May-2020 05:42:26 UTC] PHP   2. require() C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\index.php:17
+[17-May-2020 05:42:26 UTC] PHP   3. require_once() C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-blog-header.php:19
+[17-May-2020 05:42:26 UTC] PHP   4. include() C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-includes\template-loader.php:106
+[17-May-2020 05:42:26 UTC] PHP   5. pageBanner() C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-content\themes\st-charles-veterans-theme\archive-event.php:6
+[17-May-2020 05:42:26 UTC] PHP Warning:  Illegal string offset 'pageBanner' in C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-content\themes\st-charles-veterans-theme\functions.php on line 25
+[17-May-2020 05:42:26 UTC] PHP Stack trace:
+[17-May-2020 05:42:26 UTC] PHP   1. {main}() C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\index.php:0
+[17-May-2020 05:42:26 UTC] PHP   2. require() C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\index.php:17
+[17-May-2020 05:42:26 UTC] PHP   3. require_once() C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-blog-header.php:19
+[17-May-2020 05:42:26 UTC] PHP   4. include() C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-includes\template-loader.php:106
+[17-May-2020 05:42:26 UTC] PHP   5. pageBanner() C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-content\themes\st-charles-veterans-theme\archive-event.php:6
+[17-May-2020 05:42:26 UTC] PHP Warning:  Illegal string offset 'sizes' in C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-content\themes\st-charles-veterans-theme\functions.php on line 25
+[17-May-2020 05:42:26 UTC] PHP Stack trace:
+[17-May-2020 05:42:26 UTC] PHP   1. {main}() C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\index.php:0
+[17-May-2020 05:42:26 UTC] PHP   2. require() C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\index.php:17
+[17-May-2020 05:42:26 UTC] PHP   3. require_once() C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-blog-header.php:19
+[17-May-2020 05:42:26 UTC] PHP   4. include() C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-includes\template-loader.php:106
+[17-May-2020 05:42:26 UTC] PHP   5. pageBanner() C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-content\themes\st-charles-veterans-theme\archive-event.php:6
+[17-May-2020 05:42:26 UTC] PHP Warning:  Illegal string offset 'pageBanner' in C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-content\themes\st-charles-veterans-theme\functions.php on line 25
+[17-May-2020 05:42:26 UTC] PHP Stack trace:
+[17-May-2020 05:42:26 UTC] PHP   1. {main}() C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\index.php:0
+[17-May-2020 05:42:26 UTC] PHP   2. require() C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\index.php:17
+[17-May-2020 05:42:26 UTC] PHP   3. require_once() C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-blog-header.php:19
+[17-May-2020 05:42:26 UTC] PHP   4. include() C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-includes\template-loader.php:106
+[17-May-2020 05:42:26 UTC] PHP   5. pageBanner() C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-content\themes\st-charles-veterans-theme\archive-event.php:6
+[17-May-2020 05:42:27 UTC] PHP Warning:  Illegal string offset 'sizes' in C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-content\themes\st-charles-veterans-theme\functions.php on line 25
+[17-May-2020 05:42:27 UTC] PHP Stack trace:
+[17-May-2020 05:42:27 UTC] PHP   1. {main}() C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\index.php:0
+[17-May-2020 05:42:27 UTC] PHP   2. require() C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\index.php:17
+[17-May-2020 05:42:27 UTC] PHP   3. require_once() C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-blog-header.php:19
+[17-May-2020 05:42:27 UTC] PHP   4. include() C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-includes\template-loader.php:106
+[17-May-2020 05:42:27 UTC] PHP   5. pageBanner() C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-content\themes\st-charles-veterans-theme\archive-event.php:6
+[17-May-2020 05:42:27 UTC] PHP Warning:  Illegal string offset 'pageBanner' in C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-content\themes\st-charles-veterans-theme\functions.php on line 25
+[17-May-2020 05:42:27 UTC] PHP Stack trace:
+[17-May-2020 05:42:27 UTC] PHP   1. {main}() C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\index.php:0
+[17-May-2020 05:42:27 UTC] PHP   2. require() C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\index.php:17
+[17-May-2020 05:42:27 UTC] PHP   3. require_once() C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-blog-header.php:19
+[17-May-2020 05:42:27 UTC] PHP   4. include() C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-includes\template-loader.php:106
+[17-May-2020 05:42:27 UTC] PHP   5. pageBanner() C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-content\themes\st-charles-veterans-theme\archive-event.php:6
+[17-May-2020 05:42:34 UTC] PHP Warning:  Illegal string offset 'sizes' in C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-content\themes\st-charles-veterans-theme\functions.php on line 25
+[17-May-2020 05:42:34 UTC] PHP Stack trace:
+[17-May-2020 05:42:34 UTC] PHP   1. {main}() C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\index.php:0
+[17-May-2020 05:42:34 UTC] PHP   2. require() C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\index.php:17
+[17-May-2020 05:42:34 UTC] PHP   3. require_once() C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-blog-header.php:19
+[17-May-2020 05:42:34 UTC] PHP   4. include() C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-includes\template-loader.php:106
+[17-May-2020 05:42:34 UTC] PHP   5. pageBanner() C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-content\themes\st-charles-veterans-theme\archive-event.php:6
+[17-May-2020 05:42:34 UTC] PHP Warning:  Illegal string offset 'pageBanner' in C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-content\themes\st-charles-veterans-theme\functions.php on line 25
+[17-May-2020 05:42:34 UTC] PHP Stack trace:
+[17-May-2020 05:42:34 UTC] PHP   1. {main}() C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\index.php:0
+[17-May-2020 05:42:34 UTC] PHP   2. require() C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\index.php:17
+[17-May-2020 05:42:34 UTC] PHP   3. require_once() C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-blog-header.php:19
+[17-May-2020 05:42:34 UTC] PHP   4. include() C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-includes\template-loader.php:106
+[17-May-2020 05:42:34 UTC] PHP   5. pageBanner() C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-content\themes\st-charles-veterans-theme\archive-event.php:6
+[17-May-2020 05:44:11 UTC] PHP Warning:  Illegal string offset 'sizes' in C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-content\themes\st-charles-veterans-theme\functions.php on line 25
+[17-May-2020 05:44:11 UTC] PHP Stack trace:
+[17-May-2020 05:44:11 UTC] PHP   1. {main}() C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\index.php:0
+[17-May-2020 05:44:11 UTC] PHP   2. require() C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\index.php:17
+[17-May-2020 05:44:11 UTC] PHP   3. require_once() C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-blog-header.php:19
+[17-May-2020 05:44:11 UTC] PHP   4. include() C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-includes\template-loader.php:106
+[17-May-2020 05:44:11 UTC] PHP   5. pageBanner() C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-content\themes\st-charles-veterans-theme\archive-event.php:6
+[17-May-2020 05:44:11 UTC] PHP Warning:  Illegal string offset 'pageBanner' in C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-content\themes\st-charles-veterans-theme\functions.php on line 25
+[17-May-2020 05:44:11 UTC] PHP Stack trace:
+[17-May-2020 05:44:11 UTC] PHP   1. {main}() C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\index.php:0
+[17-May-2020 05:44:11 UTC] PHP   2. require() C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\index.php:17
+[17-May-2020 05:44:11 UTC] PHP   3. require_once() C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-blog-header.php:19
+[17-May-2020 05:44:11 UTC] PHP   4. include() C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-includes\template-loader.php:106
+[17-May-2020 05:44:11 UTC] PHP   5. pageBanner() C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-content\themes\st-charles-veterans-theme\archive-event.php:6
+[17-May-2020 05:44:51 UTC] PHP Parse error:  syntax error, unexpected '<', expecting end of file in C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-content\themes\st-charles-veterans-theme\archive-event.php on line 9
+[17-May-2020 05:45:06 UTC] PHP Warning:  Illegal string offset 'sizes' in C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-content\themes\st-charles-veterans-theme\functions.php on line 25
+[17-May-2020 05:45:06 UTC] PHP Stack trace:
+[17-May-2020 05:45:06 UTC] PHP   1. {main}() C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\index.php:0
+[17-May-2020 05:45:06 UTC] PHP   2. require() C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\index.php:17
+[17-May-2020 05:45:06 UTC] PHP   3. require_once() C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-blog-header.php:19
+[17-May-2020 05:45:06 UTC] PHP   4. include() C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-includes\template-loader.php:106
+[17-May-2020 05:45:06 UTC] PHP   5. pageBanner() C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-content\themes\st-charles-veterans-theme\archive-event.php:5
+[17-May-2020 05:45:06 UTC] PHP Warning:  Illegal string offset 'pageBanner' in C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-content\themes\st-charles-veterans-theme\functions.php on line 25
+[17-May-2020 05:45:06 UTC] PHP Stack trace:
+[17-May-2020 05:45:06 UTC] PHP   1. {main}() C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\index.php:0
+[17-May-2020 05:45:06 UTC] PHP   2. require() C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\index.php:17
+[17-May-2020 05:45:06 UTC] PHP   3. require_once() C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-blog-header.php:19
+[17-May-2020 05:45:06 UTC] PHP   4. include() C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-includes\template-loader.php:106
+[17-May-2020 05:45:06 UTC] PHP   5. pageBanner() C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-content\themes\st-charles-veterans-theme\archive-event.php:5
+[17-May-2020 05:45:19 UTC] PHP Warning:  Illegal string offset 'sizes' in C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-content\themes\st-charles-veterans-theme\functions.php on line 25
+[17-May-2020 05:45:19 UTC] PHP Stack trace:
+[17-May-2020 05:45:19 UTC] PHP   1. {main}() C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\index.php:0
+[17-May-2020 05:45:19 UTC] PHP   2. require() C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\index.php:17
+[17-May-2020 05:45:19 UTC] PHP   3. require_once() C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-blog-header.php:19
+[17-May-2020 05:45:19 UTC] PHP   4. include() C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-includes\template-loader.php:106
+[17-May-2020 05:45:19 UTC] PHP   5. pageBanner() C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-content\themes\st-charles-veterans-theme\archive-event.php:4
+[17-May-2020 05:45:19 UTC] PHP Warning:  Illegal string offset 'pageBanner' in C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-content\themes\st-charles-veterans-theme\functions.php on line 25
+[17-May-2020 05:45:19 UTC] PHP Stack trace:
+[17-May-2020 05:45:19 UTC] PHP   1. {main}() C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\index.php:0
+[17-May-2020 05:45:19 UTC] PHP   2. require() C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\index.php:17
+[17-May-2020 05:45:19 UTC] PHP   3. require_once() C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-blog-header.php:19
+[17-May-2020 05:45:19 UTC] PHP   4. include() C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-includes\template-loader.php:106
+[17-May-2020 05:45:19 UTC] PHP   5. pageBanner() C:\Users\lukeg\Local Sites\st-charles-county-veterans-museum\app\public\wp-content\themes\st-charles-veterans-theme\archive-event.php:4

@@ -2740,6 +2740,101 @@ Version: 1.0
   .professor-card__list-item {
     display: inline-block;
     list-style: none;
+    margin: 0 auto;
+  }
+
+  .professor-cards{
+    margin-left: 0px;
+  }
+
+  @media (max-width: 530px) {
+    .professor-cards{
+      margin-left: 13%;
+    }
+  }
+
+  @media (max-width: 500px) {
+    .professor-cards{
+      margin-left: 12%;
+    }
+  }
+
+  @media (max-width: 450px) {
+    .professor-cards{
+      margin-left: 9%;
+    }
+  }
+
+  @media (max-width: 420px) {
+    .professor-cards{
+      margin-left: 7%;
+    }
+  }
+
+  @media (max-width: 400px) {
+    .professor-cards{
+      margin-left: 4%;
+    }
+  }
+
+  @media (max-width: 390px) {
+    .professor-cards{
+      margin-left: 3%;
+    }
+  }
+
+  @media (max-width: 380px) {
+    .professor-cards{
+      margin-left: 2.5%;
+    }
+  }
+
+  @media (max-width: 370px) {
+    .professor-cards{
+      margin-left: 2%;
+    }
+  }
+
+  @media (max-width: 365px) {
+    .professor-cards{
+      margin-left: 0%;
+    }
+  }
+
+  @media (max-width: 360px) {
+    .professor-cards{
+      margin-left: -1%;
+    }
+  }
+
+  @media (max-width: 350px) {
+    .professor-cards{
+      margin-left: -2%;
+    }
+  }
+
+  @media (max-width: 340px) {
+    .professor-cards{
+      margin-left: -3%;
+    }
+  }
+
+  @media (max-width: 330px) {
+    .professor-cards{
+      margin-left: -4%;
+    }
+  }
+
+  @media (max-width: 325px) {
+    .professor-cards{
+      margin-left: -5%;
+    }
+  }
+
+
+  .stories-table {
+    display: table;
+    margin: 0 auto;
   }
 
   @media (max-width: 530px) {

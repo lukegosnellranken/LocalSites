@@ -21,13 +21,32 @@
         <h2 class="event-news-title headline headline--small-plus t-center">Latest Events</h2>
 
         <?php
-          $today = 3000-01-01;
+        // SHOWS LATEST 2 EVENTS PAST AND PRESENT
+          /* $today = 3000-01-01;
           $homepageEvents = new WP_Query(array(
             'posts_per_page' => 2,
             'post_type' => 'event',
             'meta_key' => 'event_date',
             'orderby' => 'meta_value_num',
             'order' => 'DESC',
+            'meta_query' => array(
+              array(
+                'key' => 'event_date',
+                'compare' => '>=',
+                'value' => $today,
+                'type' => 'numeric'
+              )
+            )
+          )); */
+
+          // SHOWS LATEST 2 EVENTS PRESENT ONLY
+          $today = date('Ymd');
+          $homepageEvents = new WP_Query(array(
+            'posts_per_page' => 2,
+            'post_type' => 'event',
+            'meta_key' => 'event_date',
+            'orderby' => 'meta_value_num',
+            'order' => 'ASC',
             'meta_query' => array(
               array(
                 'key' => 'event_date',

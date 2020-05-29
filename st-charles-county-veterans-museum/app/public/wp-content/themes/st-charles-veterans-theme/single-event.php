@@ -12,7 +12,7 @@
             <div class="generic-content">
                 <?php the_content(); ?>
                 <p><em>Call or email us. The museum is always looking for sponsors, donors, artifacts, memorabilia, veterans stories and volunteers. 
-                    For more information on the museum, contact info@stcharlescountyveteransmuseum.com or call 636-400-7698.</em></p>
+                    For more information on the museum, contact sccvetsmuseum@gmail.com or call 636-294-2657.</em></p>
             </div>
 
             

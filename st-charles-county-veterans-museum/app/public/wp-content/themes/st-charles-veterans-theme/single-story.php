@@ -20,7 +20,7 @@
 
                         <div class="two-thirds">
                             <?php the_content(); ?>
-                            <p><em>Please contact the St. Charles County Veterans Museum Oral History project at info@stcharlescountyveteransmuseum.com or call 636-294-2657 
+                            <p><em>Please contact the St. Charles County Veterans Museum Oral History project at sccvetsmuseum@gmail.com or call 636-294-2657 
                                 for more information and lets’ talk. We want to hear from you because we know…Every Veteran has a story.</em></p>
 
 

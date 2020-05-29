@@ -31,17 +31,23 @@
 
                         if ($relatedVeterans->have_posts()) {
 
-                            echo '<ul class="professor-cards">';
-                            while($relatedVeterans->have_posts()) {
-                                $relatedVeterans->the_post(); ?>
-                                <li class="professor-card__list-item" id="veteran-card__list-item_mobile-margin">
-                                    <a class="professor-card" id="veteran-card__list-item_mobile" href="<?php the_permalink(); ?>">
-                                        <img class="professor-card__image" src="<?php the_post_thumbnail_url('veteranCard'); ?>">
-                                        <span class="professor-card__name"><?php the_title(); ?></span>
-                                    </a>
-                                </li>
-                            <?php }
-                            echo '</ul>';
+                            ?>
+                            <div class="stories-table">
+                            <?php
+                                echo '<ul class="professor-cards">';
+                                while($relatedVeterans->have_posts()) {
+                                    $relatedVeterans->the_post(); ?>
+                                    <li class="professor-card__list-item" id="veteran-card__list-item_mobile-margin">
+                                        <a class="professor-card" id="veteran-card__list-item_mobile" href="<?php the_permalink(); ?>">
+                                            <img class="professor-card__image" src="<?php the_post_thumbnail_url('veteranCard'); ?>">
+                                            <span class="professor-card__name"><?php the_title(); ?></span>
+                                        </a>
+                                    </li>
+                                <?php }
+                                echo '</ul>';
+                            ?>
+                            </div>
+                            <?php
                         }
 
                         wp_reset_postdata();
